@@ -3,8 +3,8 @@
 
 <br /> - ▪ **Programming Languages**: JavaScript, Python, TypeScript
 <br /> - ▪ **Methodologies**: Microservice Architecture, Serverless, Agile, XP, Pair-programming, Test-driven Development
-<br /> - ▪ **Tools and Technologies**: AWS, Elasticsearch, Terraform, Pulumi, Kubernetes, REST, Web3, Spark, Kafka, Camunda
-<br /> - ▪ **Databases**: MySQL, Cassandra, DynamoDB, MongoDB
+<br /> - ▪ **Tools and Technologies**: AWS, Elasticsearch, Terraform, Pulumi, Kubernetes, Docker, REST, Web3, Spark, Kafka, Camunda
+<br /> - ▪ **Databases**: MySQL, Cassandra, DynamoDB, MongoDB, PostgreSQL
 <br /> - ▪ **Frameworks**: Node.js, Express.js, Flask, React.js, Nest.js, Django
 
 💬 I thrive in creating scalable architectures and have a passion for solving complex problems. With a keen attention to detail, I ensure that every aspect of the product is crafted meticulously. I believe in collaborating closely with cross-functional teams to achieve remarkable results.
