@@ -19,7 +19,7 @@
 
 ### **1. Software Engineer** at **[Casaone](https://www.casaone.com/)**  
 
-### **0. Software Engineer** at **[Truesparrow Systems](https://truesparrow.com/about-us/)**  
+### **0. Software Engineer** at **[True Sparrow  Systems](https://truesparrow.com/about-us/)**  
 - **[Moxie](https://truesparrow.com/case-study/moxie)**  
   Built an all-in-one solution for fitness entrepreneurs to manage their business, including live-streaming, scheduling, payments, and promotions.  
   Developed a marketplace for premium workouts and curated coaches.
