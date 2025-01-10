@@ -17,11 +17,11 @@
 
 ## 💼 Experience:
 
-### **Senior Software Engineer** at **[Globant](https://globant.com/)**  
+### **1. Senior Software Engineer** at **[Globant](https://globant.com/)**  
 
-### **Software Engineer** at **[Casaone](https://www.casaone.com/)**  
+### **2. Software Engineer** at **[Casaone](https://www.casaone.com/)**  
 
-### **Software Engineer** at **[Truesparrow Systems](https://truesparrow.com/about-us/)**  
+### **3. Software Engineer** at **[Truesparrow Systems](https://truesparrow.com/about-us/)**  
 - **[Moxie](https://truesparrow.com/case-study/moxie)**  
   Built an all-in-one solution for fitness entrepreneurs to manage their business, including live-streaming, scheduling, payments, and promotions.  
   Developed a marketplace for premium workouts and curated coaches.
@@ -37,16 +37,24 @@
   Recognized as a groundbreaking crypto consumer UX by Decrypt.
 
 
-## 🚀 Other Highlights:
+## 🚀 Open Source Contributions:
 - **UniCache**: [UniCache Repository](https://github.com/TrueSparrowSystems/UniCache)  
   Developed an NPM package providing a singleton interface and behavior for Memcached, Redis, and In-memory caching.  
   **NPM**: [@truesparrow/unicache](https://www.npmjs.com/package/@truesparrow/unicache)  
   ![npm version](https://img.shields.io/npm/v/@truesparrow/unicache.svg?style=flat)
 
+- **[OST Cache](https://github.com/ostdotcom/cache)**  
+  Contributed to the development of OST Cache, a caching library supporting Memcached, Redis, and In-memory caching.
 
-⚡ Interests:
+- **[OST Block Scanner](https://github.com/ostdotcom/ost-block-scanner)**  
+  Worked on the OST Block Scanner, a tool for monitoring and validating blockchain transactions.
 
-Scalable systems, Database Modelling, System Optimizations, Backend Development, Microservices, Cloud technologies, Blockchain, Distributed Systems, High-Level System Designing, Low-Level System Designing, Object-Oriented Programming, Data Structures, and Algorithms.
+- **[OST View](https://github.com/ostdotcom/ost-view)**  
+  Contributed to OST View, a project focused on visualizing blockchain data for better insights.
+
+
+## ⚡ Interests:
+- Scalable systems, Database Modelling, System Optimizations, Backend Development, Microservices, Cloud technologies, Blockchain, Distributed Systems, System Designing, Object-Oriented Programming, Data Structures, and Algorithms.
 
 --- 
 
