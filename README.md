@@ -1,4 +1,4 @@
-## 💫 About Me:
+## 💻 About Me:
 🔭 *An experienced backend engineer with a strong focus on delivering high-quality products. With six years of hands-on experience, I have a deep understanding of defining requirements, designing, implementing, testing, and delivering complex back-end and web applications. My skill set includes:*
 
 <br /> - ▪ **Programming Languages**: JavaScript, Python, TypeScript
