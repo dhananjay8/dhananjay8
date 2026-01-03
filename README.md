@@ -107,6 +107,15 @@ _Contributed to innovative Web3 and blockchain projects_
 
 ## 🎓 Education
 
+### **Master of Business Administration (MBA) in Information Technology and Systems Management (ITSM)**
+**SVKM's Narsee Monjee Institute of Management Studies (NMIMS)** | Mumbai, India
+
+- Specialized in Business Management and Leadership
+- Cloud Computing, IT Project Management
+- Focus on Technology Management and Innovation
+- Strategic Planning and Business Analytics
+- Entrepreneurship and Product Management
+
 ### **Bachelor of Engineering (B.E.) in Computer Engineering**
 **Pune Institute of Computer Technology (PICT)** | Pune, India
 
@@ -217,9 +226,42 @@ Contributed to multiple repositories in the OST blockchain ecosystem:
 
 ---
 
-## 📚 Technical Blog Posts
+## 📚 Publications & Research
 
-### 🐰 [Introduction to RabbitMQ](https://medium.com/globant/introduction-to-rabbitmq-5af1a58b942e)
+### **Academic Publications & Research**
+
+#### 📄 [Green Cloud Metrics - Sustainability Analytics Platform](https://github.com/dhananjay8/green-cloud-metrics)
+
+**Research Paper**: "Green Computing in Azure Cloud Environments: A Comprehensive Analysis" | *January 2026*
+
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/) [![Azure](https://img.shields.io/badge/Azure-Cloud-0078D4.svg)](https://azure.microsoft.com/) [![Research Paper](https://img.shields.io/badge/Research-Published-success.svg)](https://github.com/dhananjay8/green-cloud-metrics/blob/main/research_paper.pdf)
+
+A comprehensive 35-page academic research paper exploring sustainability in cloud computing, with accompanying implementation.
+
+**Research Highlights:**
+
+- 📊 Systematic analysis of energy consumption patterns in Azure cloud infrastructure
+- 🌍 Novel metrics for measuring carbon emissions and sustainability in cloud environments
+- ⚡ Empirical methodologies for real-time energy and carbon tracking
+- 📈 Optimization strategies demonstrating **34.8% energy reduction** and **42.7% carbon emission reduction**
+- 🔬 **Pages**: 35 | **Words**: 12,500+ | **References**: 20 academic sources
+
+**Implementation Features:**
+- Automated Azure resource discovery (VMs, Storage, Databases)
+- Real-time energy consumption calculations based on CPU/Memory utilization
+- Region-specific carbon intensity tracking
+- Multi-format reporting (Console, JSON, HTML, CSV)
+- CLI tool with sustainability scoring
+
+**Tech Stack**: Python, Azure SDK, Azure Monitor API, Pandas, Jinja2, Rich, Click
+
+[📄 Read Full Paper (PDF)](https://github.com/dhananjay8/green-cloud-metrics/blob/main/research_paper.pdf) | [💻 View Implementation](https://github.com/dhananjay8/green-cloud-metrics)
+
+---
+
+### **Technical Blog Posts**
+
+#### 🐰 [Introduction to RabbitMQ](https://medium.com/globant/introduction-to-rabbitmq-5af1a58b942e)
 
 _Published on Medium @ Globant_
 
