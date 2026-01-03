@@ -11,6 +11,8 @@
 
 🌱 If you are looking for a dedicated engineer who can bring technical excellence and a product-centric mindset to your team, let's connect and explore potential opportunities.
 
+🌿 **Recent Focus**: Green computing and sustainability in cloud environments, developing tools and frameworks to measure and optimize carbon footprints in cloud infrastructure.
+
 --- 
 
 ## 💼 Experience:
@@ -36,7 +38,29 @@
 
 --- 
 
-## 🚀 Open Source Contributions:
+## 🚀 Open Source Projects & Contributions:
+
+### **Recent Projects:**
+
+- 🌿 **[Green Cloud Metrics](https://github.com/dhananjay8/green-cloud-metrics)**  
+  A comprehensive tool for measuring and optimizing carbon footprint and energy consumption in Azure cloud environments.  
+  - Automated resource discovery across VMs, storage, and databases
+  - Real-time energy consumption and carbon emission calculations
+  - Multi-format reporting (console, JSON, HTML, CSV) with sustainability scoring
+  - **Research**: Published a 35-page academic paper on "Green Computing in Azure Cloud Environments"
+  - **Tech Stack**: Python, Azure SDK, Azure Monitor API, Pandas, Jinja2, Rich  
+  ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg) ![Azure](https://img.shields.io/badge/Azure-Cloud-0078D4.svg)
+
+- 🧹 **[Mark and Sweep Algorithm](https://github.com/dhananjay8/mark-and-sweep-algorithm)**  
+  An educational implementation of the Mark and Sweep garbage collection algorithm.  
+  - Visual representation of memory management and object lifecycle
+  - Interactive demos with ASCII visualization
+  - Comprehensive test suite demonstrating GC concepts
+  - **Tech Stack**: Python, pytest  
+  ![Python](https://img.shields.io/badge/Python-Educational-green.svg)
+
+### **Open Source Contributions:**
+
 - **UniCache**: [UniCache Repository](https://github.com/TrueSparrowSystems/UniCache)  
   Developed an NPM package providing a singleton interface and behavior for Memcached, Redis, and In-memory caching.  
   **NPM**: [@truesparrow/unicache](https://www.npmjs.com/package/@truesparrow/unicache)  
@@ -54,12 +78,19 @@
 --- 
 
 ## ⚡ Interests:
-- Scalable systems, Database Modelling, System Optimizations, Backend Development, Microservices, Cloud technologies, Blockchain, Distributed Systems, System Designing, Object-Oriented Programming, Data Structures, and Algorithms.
+- Green Computing & Sustainability, Scalable Systems, Database Modelling, System Optimizations, Backend Development, Microservices, Cloud Technologies (AWS/Azure), Blockchain, Distributed Systems, System Design, Object-Oriented Programming, Data Structures, and Algorithms.
 
 --- 
 
-## 📚 Blogs
+## 📚 Publications & Blogs
 
+### Academic Publications:
+- **"Green Computing in Azure Cloud Environments: A Comprehensive Analysis"**  
+  *Dhananjay Patil* | January 2026  
+  A 35-page research paper exploring energy consumption patterns, carbon emission calculations, and sustainability metrics in Azure cloud infrastructure.  
+  [📄 Read Paper](https://github.com/dhananjay8/green-cloud-metrics/blob/main/research_paper.pdf)
+
+### Blog Posts:
 - [Introduction to RabbitMQ](https://medium.com/globant/introduction-to-rabbitmq-5af1a58b942e)
 
 --- 
