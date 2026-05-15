@@ -108,6 +108,15 @@ Educational garbage collector implementation with object graph traversal, memory
 
 Research-backed Azure sustainability analytics implementation with energy and carbon tracking reports.
 
+### [Runtime Anomaly Platform](https://github.com/dhananjay8/runtime-anomaly-platform)
+
+Distributed eBPF runtime fingerprinting and anomaly detection platform for containerized workloads.
+
+- **Streaming architecture:** eBPF telemetry flows through Kafka-backed ingestion, feature engineering, ML scoring, and detection API services.
+- **ML detection:** Isolation Forest model scores 18-dimensional behavioral feature vectors with online scoring, periodic retraining, and severity classification.
+- **Backend platform:** Spring Boot microservices expose anomaly, statistics, container profile, health, and OpenAPI-documented REST endpoints.
+- **Operational design:** Oracle persistence, Kafka dead-letter topics, Prometheus metrics, structured logging, and Podman-based local infrastructure.
+
 ## Writing
 
 ### [Introduction to RabbitMQ](https://medium.com/globant/introduction-to-rabbitmq-5af1a58b942e)
@@ -140,11 +149,18 @@ Web3 infrastructure, realtime systems, media workflows, notifications, open-sour
 
 <div class="skill-groups">
   <div><strong>Languages</strong><span>JavaScript, TypeScript, Java, Python, Bash</span></div>
-  <div><strong>Backend</strong><span>Node.js, NestJS, Express, Spring Boot, Flask, Django, FastAPI, GraphQL</span></div>
-  <div><strong>Data</strong><span>PostgreSQL, MongoDB, Cassandra, DynamoDB, Elasticsearch, Redis, MySQL</span></div>
-  <div><strong>Cloud</strong><span>AWS, Azure, Lambda, API Gateway, Step Functions, Azure Functions, Logic Apps, Storage, VMs</span></div>
-  <div><strong>Infra</strong><span>Docker, Kubernetes, Terraform, CloudFormation, Azure Bicep, Jenkins, CI/CD</span></div>
-  <div><strong>Systems</strong><span>Kafka, RabbitMQ, Camunda, Redis coordination, observability, rate limiting, retries</span></div>
+  <div><strong>Backend frameworks</strong><span>Node.js, Express.js, NestJS, Spring Boot, Flask, Django, FastAPI, GraphQL</span></div>
+  <div><strong>Databases and stores</strong><span>MySQL, PostgreSQL, MongoDB, Cassandra, DynamoDB, CosmosDB, Elasticsearch, Redis, Oracle</span></div>
+  <div><strong>AWS</strong><span>Lambda, API Gateway, S3, EC2, CloudFormation, RDS, DynamoDB, SNS, SQS, SES, Step Functions, EventBridge, GovCloud</span></div>
+  <div><strong>Azure</strong><span>Functions, Virtual Machines, Azure SQL Database, Storage Accounts, Event Hub, Function Apps, Logic Apps, Event Grid, Azure Government</span></div>
+  <div><strong>Testing and QA</strong><span>Pytest, Jest, Mocha, Chai, Sinon, Supertest, TDD, Shift-Left Testing</span></div>
+  <div><strong>AI and data engineering</strong><span>Pandas, NumPy, Matplotlib, Transformers, Meta LLaMA, Google Colab, scikit-learn, Isolation Forest</span></div>
+  <div><strong>Build and tooling</strong><span>Gradle, Webpack, Poetry, Git, Bitbucket, Swagger/OpenAPI</span></div>
+  <div><strong>DevOps and infrastructure</strong><span>Docker, Podman, Kubernetes, Jenkins, ConcourseCI, TravisCI, Terraform, CDK-TF, CloudFormation, Azure Bicep</span></div>
+  <div><strong>Monitoring and logging</strong><span>Kibana, ELK Stack, Prometheus, Grafana, SonarQube, OpenTelemetry, structured logging</span></div>
+  <div><strong>Messaging and orchestration</strong><span>Kafka, RabbitMQ, Camunda, Conductor, Redis coordination, Asyncio, Celery</span></div>
+  <div><strong>Frontend and web</strong><span>React, WebSockets, REST APIs, API-first design</span></div>
+  <div><strong>Architecture and methods</strong><span>Agile, Scrum, SAFe, XP, DevOps, CI/CD, Microservices, Serverless, Cloud-Native, Event-Driven/SOA, IaC</span></div>
 </div>
 
 ## Education and certifications
