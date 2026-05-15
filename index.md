@@ -80,7 +80,7 @@ I work on cloud-native vulnerability and posture assessment systems for multi-te
     </ul>
   </article>
   <article class="case-card">
-    <h3>Web3 infrastructure and realtime systems</h3>
+    <h3>Token Economies based on Ethereum and Web3</h3>
     <p>At TrueSparrow, built a Stripe-like enterprise platform for token economies backed by blockchain, along with realtime systems for notifications, chat, media workflows, and Web3 APIs.</p>
     <ul>
       <li>Contributed to OST open-source cache, block scanner, and view projects</li>
