@@ -36,24 +36,29 @@ description: Senior Backend & Cloud Engineer building distributed systems, cloud
 
 I work on cloud-native vulnerability and posture assessment systems for multi-tenant security products.
 
-- **Architected multi-cloud scanning workflows** for agentless snapshot and API-based assessment across AWS and Azure without impacting customer workloads.
-- **Designed Kafka-driven orchestration** processing 50K+ daily events with partition-aware scaling, Redis coordination, resilient retries, and dead-letter handling.
-- **Engineered Azure cross-subscription snapshot scanning** that removed disk copy operations and reduced snapshot provisioning time by 60% while preserving customer-managed encryption key compliance.
-- **Built secure serverless automation** with Azure Functions, Logic Apps, managed identity, Key Vault, fine-grained RBAC, private endpoints, and audit logging.
-- **Improved discovery throughput by 40%** through concurrent scheduling, API pagination tuning, adaptive rate limiting, and Redis-backed work queues.
+- **Architected multi-cloud cloud-native vulnerability and posture assessment platform** for CSPM/DSPM using zero-touch agentless snapshot and API-based scanning without impacting customer workloads.
+- **Design Cloud Workload Protection systems** to process large volumes of cloud security data daily across multi-cloud enterprise environments.
+- **Designed Kafka-driven distributed microservices** processing 50K+ daily events with partition-aware scaling, Redis coordination, and resilient retry/dead-letter strategies for multi-tenant SaaS scanning across 100+ concurrent enterprise environments.
+- **Engineered Azure cross-subscription snapshot architecture** removing disk copy operations and reducing snapshot provisioning time by 60% while preserving customer-managed encryption key compliance.
+- **Developed secure serverless scanning** using Azure Functions and Logic Apps with managed identity authentication, eliminating credential storage and improving security posture.
+- **Automated compliance and governance workflows** with Key Vault encryption, fine-grained RBAC, and audit logging, reducing security violations by 85% for US Gov Cloud and FedRAMP compliance.
+- **Standardized secure infrastructure delivery** using AWS CloudFormation, Terraform, and Azure Bicep across hub-spoke networking, private endpoints, strict NSGs, IAM/RBAC isolation, and customer-managed encryption.
+- **Optimized large-scale cloud discovery by 40%** through concurrent snapshot scheduling, API pagination tuning, adaptive rate limiting, and Redis-backed work queues.
+- **Implemented centralized observability** with ELK stack and structured audit pipelines for traceability across scan orchestration, compliance workflows, and cloud control-plane interactions.
 
-**Tech:** Java, Spring Boot, Node.js, Python, Kafka, Redis, Elasticsearch, Terraform, Azure Bicep, Jenkins, Docker
+**Tech:** Node.js, Java, Kafka, Spring Boot, Python, Elasticsearch, Terraform, Jenkins, AWS, Azure, GCP, OCI
 
 ## Selected engineering stories
 
 <div class="case-grid">
   <article class="case-card">
     <h3>Cloud security scan orchestration</h3>
-    <p>Designed backend workflows for multi-cloud vulnerability and posture assessment using event-driven orchestration, snapshot lifecycle automation, and secure cloud control-plane integrations.</p>
+    <p>Architected multi-cloud CWP, CSPM, and DSPM workflows using zero-touch agentless snapshot scanning, API-based assessment, secure cloud control-plane integrations, and distributed orchestration.</p>
     <ul>
-      <li>50K+ daily events across distributed workers</li>
-      <li>100+ concurrent enterprise environments</li>
-      <li>Managed identity and customer-managed key support</li>
+      <li>50K+ daily Kafka events across partition-aware distributed workers</li>
+      <li>100+ concurrent enterprise environments with Redis coordination and retry/dead-letter handling</li>
+      <li>60% faster Azure snapshot provisioning with managed identity and customer-managed key support</li>
+      <li>85% reduction in security violations through Key Vault encryption, RBAC, audit logging, and governed infrastructure delivery</li>
     </ul>
   </article>
   <article class="case-card">
@@ -76,7 +81,7 @@ I work on cloud-native vulnerability and posture assessment systems for multi-te
   </article>
   <article class="case-card">
     <h3>Web3 infrastructure and realtime systems</h3>
-    <p>At TrueSparrow, built backend systems for OST, Pepo, and Moxie across blockchain APIs, notification systems, realtime chat, and media workflows.</p>
+    <p>At TrueSparrow, built a Stripe-like enterprise platform for token economies backed by blockchain, along with realtime systems for notifications, chat, media workflows, and Web3 APIs.</p>
     <ul>
       <li>Contributed to OST open-source cache, block scanner, and view projects</li>
       <li>Built Web3 REST APIs using Web3.js, RabbitMQ, DynamoDB, and MySQL</li>
