@@ -4,15 +4,27 @@ title: Dhananjay Patil
 description: Senior Backend & Cloud Engineer building distributed systems, cloud security platforms, and high-scale SaaS products.
 ---
 
+<nav class="site-tabs" aria-label="Portfolio navigation">
+  <a class="active" href="/">Home</a>
+  <a href="/books/">Books</a>
+  <a href="/list-100/">List 100</a>
+  <a href="/blog/">Blog</a>
+</nav>
+
 <section class="hero">
-  <p class="eyebrow">Senior Backend & Cloud Engineer</p>
-  <h1>Dhananjay Patil</h1>
-  <p class="hero-copy">I build distributed backend platforms, cloud-native systems, and secure multi-cloud automation for product teams operating at scale.</p>
-  <div class="hero-actions">
-    <a class="button primary" href="mailto:dhananjay.pict@gmail.com">Contact me</a>
-    <a class="button" href="assets/files/Dhananjay_Patil_Software_Engineer_Resume.pdf">Resume</a>
-    <a class="button" href="https://github.com/dhananjay8">GitHub</a>
-    <a class="button" href="https://linkedin.com/in/dhananjay08patil">LinkedIn</a>
+  <div class="hero-inner">
+    <div>
+      <p class="eyebrow">Senior Backend & Cloud Engineer</p>
+      <h1>Dhananjay Patil</h1>
+      <p class="hero-copy">I build distributed backend platforms, cloud-native systems, and secure multi-cloud automation for product teams operating at scale.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="mailto:dhananjay.pict@gmail.com">Contact me</a>
+        <a class="button" href="assets/files/Dhananjay_Patil_Software_Engineer_Resume.pdf">Resume</a>
+        <a class="button" href="https://github.com/dhananjay8">GitHub</a>
+        <a class="button" href="https://linkedin.com/in/dhananjay08patil">LinkedIn</a>
+      </div>
+    </div>
+    <img class="profile-photo" src="/assets/images/profile.jpeg" alt="Dhananjay Patil">
   </div>
 </section>
 
