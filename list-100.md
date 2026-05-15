@@ -83,7 +83,6 @@ Progress as of May 31, 2026: 40.75/92.
 - ❌ Watch a Broadway show in New York
 - ❌ New York' new year
 - ✅ Watch bullfight in Spain
-- ❌ Watch a soccer game at Camp Nou
 - ❌ Speak at TED
 - ✅ See a comet
 - ❌ Meet Lionel Messi
@@ -107,7 +106,6 @@ Progress as of May 31, 2026: 40.75/92.
 - ❌ Discover a fossil
 - ❌ Catch fish on boat
 - ❌ Learn Electrostatics
-- ❌ Burning Man
 - ❌ Learn to play keyboard
 - ❌ Do 20 handstand pushups
 - ❌ Visit Machu Picchu
@@ -118,7 +116,6 @@ Progress as of May 31, 2026: 40.75/92.
 - ✅ Buy Jawa/Benelli/RE/Harley bike
 - ✅ Do Bungee
 - ❌ Sky-dive
-- ❌ Scuba-dive
 
 P.S.: I spend a lot of time thinking about how to live, and occasionally write about it.
 
