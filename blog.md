@@ -7,7 +7,7 @@ permalink: /blog/
 
 <nav class="site-tabs" aria-label="Portfolio navigation">
   <a href="/">Home</a>
-  <a href="/books/">Books</a>
+  <a href="/books/">The Stack</a>
   <a href="/list-100/">List 100</a>
   <a class="active" href="/blog/">Blog</a>
 </nav>
