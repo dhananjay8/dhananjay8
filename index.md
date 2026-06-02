@@ -18,7 +18,7 @@ description: Senior Backend & Cloud Engineer building distributed systems, cloud
       <h1>Dhananjay Patil</h1>
       <p class="hero-copy">I build distributed backend platforms, cloud-native systems, and secure multi-cloud automation for product teams operating at scale.</p>
       <div class="hero-actions">
-        <a class="button primary" href="mailto:dhananjay.pict@gmail.com">Contact me</a>
+        <a class="button primary" href="mailto:dspatil.backend@gmail.com">Contact me</a>
         <a class="button" href="assets/files/Dhananjay_Patil_Software_Engineer_Resume.pdf">Resume</a>
         <a class="button" href="https://github.com/dhananjay8">GitHub</a>
         <a class="button" href="https://linkedin.com/in/dhananjay08patil">LinkedIn</a>
