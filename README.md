@@ -2,7 +2,7 @@
 
 **Senior Backend & Cloud Engineer** building distributed systems, cloud security platforms, and high-scale SaaS products.
 
-[Portfolio](https://dhananjaypatil.is-a.dev) · [LinkedIn](https://linkedin.com/in/dhananjay08patil) · [GitHub](https://github.com/dhananjay8) · [Email](mailto:dhananjay.pict@gmail.com)
+[Portfolio](https://dhananjaypatil.is-a.dev) · [LinkedIn](https://linkedin.com/in/dhananjay08patil) · [GitHub](https://github.com/dhananjay8) · [Email](mailto:dspatil.backend@gmail.com)
 
 ## Focus
 
