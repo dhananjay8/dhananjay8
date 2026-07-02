@@ -12,12 +12,7 @@ permalink: /list-100/
 
 <p style="color: var(--text-sub); margin-bottom: 1.5rem;">Things I want to do before I die. Let me know if you have a recommendation. <em style="color: var(--text-muted);">Inspired by <a href="https://huyenchip.com/list-100/">Chip Huyen's List 100</a>.</em></p>
 
-<div class="list-progress animate-in">
-  <div class="list-progress-num">40.75</div>
-  <div class="list-progress-label">out of 92 completed<br><span style="color: var(--text-muted); font-size: 0.75rem;">as of May 31, 2026</span></div>
-</div>
-
-<ul class="list-100 animate-in">
+<ul class="list-100-simple animate-in">
   <li>❌ Learn Spanish</li>
   <li>❌ Live in another country</li>
   <li>❌ Start a nonprofit organization</li>
