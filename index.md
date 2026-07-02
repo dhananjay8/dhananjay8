@@ -33,69 +33,85 @@ description: Senior Backend & Cloud Engineer building distributed systems, cloud
   </div>
 </section>
 
-<div class="metrics-grid animate-in">
-  <div class="metric-card">
-    <strong>8+</strong>
-    <span>years backend, cloud &amp; platform engineering</span>
-  </div>
-  <div class="metric-card">
-    <strong>50K+</strong>
-    <span>daily distributed cloud events processed</span>
-  </div>
-  <div class="metric-card">
-    <strong>100+</strong>
-    <span>concurrent enterprise cloud environments</span>
-  </div>
-  <div class="metric-card">
-    <strong>60%</strong>
-    <span>snapshot provisioning time reduction</span>
-  </div>
-</div>
+## Experience
 
-## What I'm strong at
+<div class="timeline animate-in">
+  <div class="timeline-item">
+    <div class="timeline-dot"></div>
+    <div class="timeline-header">
+      <div>
+        <div class="timeline-role">Senior Software Engineer</div>
+        <div class="timeline-company">Qualys</div>
+      </div>
+      <span class="timeline-date">Mar 2025 – Present</span>
+    </div>
+    <p class="timeline-desc">Cloud security, multi-cloud scanning, distributed orchestration, and compliance automation for CSPM/DSPM/CWP platforms.</p>
+    <ul class="timeline-bullets">
+      <li>Architected multi-cloud agentless snapshot scanning platform (AWS, Azure, GCP, OCI)</li>
+      <li>Kafka-driven microservices, Redis coordination, dead-letter handling at enterprise scale</li>
+      <li>Azure cross-subscription snapshot architecture — 60% provisioning time reduction</li>
+      <li>RBAC, Key Vault, and compliance automation — 85% security violation reduction</li>
+    </ul>
+    <div class="tech-tags">
+      <span class="tech-tag accent">Kafka</span><span class="tech-tag blue">Azure</span><span class="tech-tag blue">AWS</span><span class="tech-tag blue">GCP</span><span class="tech-tag purple">Java</span><span class="tech-tag purple">Node.js</span><span class="tech-tag">Terraform</span>
+    </div>
+  </div>
 
-<div class="case-grid animate-in">
-  <div class="case-card">
-    <span class="card-tag">Distributed Systems</span>
-    <h3>Event-driven microservices at scale</h3>
-    <p>Kafka-driven workflows, Redis-backed coordination, retry/dead-letter strategies, high-availability SaaS design across 100+ concurrent enterprise environments.</p>
+  <div class="timeline-item past">
+    <div class="timeline-dot"></div>
+    <div class="timeline-header">
+      <div>
+        <div class="timeline-role">Senior Software Engineer</div>
+        <div class="timeline-company">Globant</div>
+      </div>
+      <span class="timeline-date">Jul 2021 – Feb 2025</span>
+    </div>
+    <p class="timeline-desc">Billing platforms, payment integrations, policy-based access control, microservices, and full-stack delivery.</p>
+    <ul class="timeline-bullets">
+      <li>Decomposed billing monolith into service-oriented components — 40% perf improvement</li>
+      <li>PCI-compliant hosted payment integrations with Stripe and major gateways</li>
+      <li>18% faster PostgreSQL queries via indexing, caching, and query planning</li>
+    </ul>
     <div class="tech-tags">
-      <span class="tech-tag accent">Kafka</span>
-      <span class="tech-tag accent">Redis</span>
-      <span class="tech-tag">Spring Boot</span>
-      <span class="tech-tag">Oracle</span>
+      <span class="tech-tag purple">TypeScript</span><span class="tech-tag purple">Node.js</span><span class="tech-tag">PostgreSQL</span><span class="tech-tag">Redis</span>
     </div>
   </div>
-  <div class="case-card">
-    <span class="card-tag">Cloud Platforms</span>
-    <h3>Multi-cloud security infrastructure</h3>
-    <p>AWS, Azure, GCP, serverless, Kubernetes, Terraform, managed identity, RBAC/IAM, private networking, hub-spoke topology, zero-touch agentless scanning.</p>
+
+  <div class="timeline-item past">
+    <div class="timeline-dot"></div>
+    <div class="timeline-header">
+      <div>
+        <div class="timeline-role">Software Engineer</div>
+        <div class="timeline-company">CasaOne</div>
+      </div>
+      <span class="timeline-date">Nov 2020 – Jul 2021</span>
+    </div>
+    <p class="timeline-desc">Inventory, warehouse, logistics, operations automation, and API performance optimization.</p>
+    <ul class="timeline-bullets">
+      <li>Reduced API latency from 9–13s to under 2s</li>
+      <li>GCP Pub/Sub event pipeline for real-time inventory state sync</li>
+    </ul>
     <div class="tech-tags">
-      <span class="tech-tag blue">AWS</span>
-      <span class="tech-tag blue">Azure</span>
-      <span class="tech-tag blue">GCP</span>
-      <span class="tech-tag">Terraform</span>
+      <span class="tech-tag purple">Node.js</span><span class="tech-tag blue">GCP</span><span class="tech-tag">MongoDB</span>
     </div>
   </div>
-  <div class="case-card">
-    <span class="card-tag">Backend Engineering</span>
-    <h3>APIs, data, and platform design</h3>
-    <p>Node.js, TypeScript, Java, Python, REST APIs, GraphQL, PostgreSQL, MongoDB, Cassandra, Elasticsearch, Redis — from monolith decomposition to greenfield services.</p>
-    <div class="tech-tags">
-      <span class="tech-tag purple">Node.js</span>
-      <span class="tech-tag purple">Java</span>
-      <span class="tech-tag purple">Python</span>
-      <span class="tech-tag">GraphQL</span>
+
+  <div class="timeline-item past">
+    <div class="timeline-dot"></div>
+    <div class="timeline-header">
+      <div>
+        <div class="timeline-role">Software Engineer</div>
+        <div class="timeline-company">TrueSparrow Systems</div>
+      </div>
+      <span class="timeline-date">Jun 2018 – Nov 2020</span>
     </div>
-  </div>
-  <div class="case-card">
-    <span class="card-tag">Product Impact</span>
-    <h3>Latency, compliance, and delivery</h3>
-    <p>API latency reduction from 9–13s → 1–2s, 85% security violation reduction via RBAC/Key Vault automation, payments integrations, observability, compliance workflows.</p>
+    <p class="timeline-desc">Web3 infrastructure, realtime systems, media workflows, notifications, and open-source backend tooling.</p>
+    <ul class="timeline-bullets">
+      <li>Built Stripe-like platform for Ethereum-based token economies</li>
+      <li>Core contributor to OST open-source ecosystem (cache, block scanner, view)</li>
+    </ul>
     <div class="tech-tags">
-      <span class="tech-tag orange">ELK Stack</span>
-      <span class="tech-tag orange">Prometheus</span>
-      <span class="tech-tag">OpenTelemetry</span>
+      <span class="tech-tag orange">Web3.js</span><span class="tech-tag purple">Node.js</span><span class="tech-tag orange">RabbitMQ</span><span class="tech-tag">MySQL</span>
     </div>
   </div>
 </div>
@@ -104,70 +120,88 @@ description: Senior Backend & Cloud Engineer building distributed systems, cloud
 
 <div class="case-grid animate-in">
   <article class="case-card">
-    <span class="card-tag">Qualys · Cloud Security</span>
+    <span class="card-tag">Qualys · Cloud Security · Mar 2025 – Present</span>
     <h3>Multi-cloud workload protection platform</h3>
-    <p>Architected CWP, CSPM, and DSPM workflows using zero-touch agentless snapshot scanning and API-based assessment with secure cloud control-plane integrations.</p>
+    <p>Architected the CWP, CSPM, and DSPM scanning engine at Qualys — a distributed, event-driven platform that performs zero-touch agentless snapshot scanning across AWS, Azure, GCP, and OCI. Built entirely on Kafka-driven microservices with Redis-backed distributed coordination, Oracle persistence, and cross-subscription cloud integrations.</p>
     <ul>
-      <li>50K+ daily Kafka events across partition-aware distributed workers</li>
-      <li>100+ concurrent enterprise environments with Redis coordination and dead-letter handling</li>
-      <li>60% faster Azure snapshot provisioning via cross-subscription architecture</li>
-      <li>85% security violation reduction through Key Vault encryption, RBAC, and governed IaC</li>
+      <li>Designed partition-aware Kafka consumer topology processing 50K+ cloud lifecycle events daily across 100+ concurrent enterprise environments</li>
+      <li>Engineered Azure cross-subscription snapshot architecture — snapshots created in service subscription, source disks in target subscription — reducing provisioning time by 60%</li>
+      <li>Built IMDS-based managed identity auth for disk attach/detach and storage upload at scan time, eliminating SAS token surface area</li>
+      <li>Automated RBAC role assignments, Key Vault encryption policies, NSG rules, and VNet peering via governed Terraform IaC — 85% reduction in security violations</li>
+      <li>Implemented dead-letter handling, Redis-based idempotency guards, and multi-phase setup/cleanup orchestration (NSG → VNet → KeyVault → Storage → FunctionApp)</li>
+      <li>Designed multi-volume disk attach flow with IMDS LUN mapping and parallel mount handling for OS and data disk scanning</li>
     </ul>
     <div class="tech-tags">
       <span class="tech-tag accent">Kafka</span>
+      <span class="tech-tag accent">Redis</span>
       <span class="tech-tag blue">Azure</span>
       <span class="tech-tag blue">AWS</span>
       <span class="tech-tag blue">GCP</span>
-      <span class="tech-tag">Java</span>
+      <span class="tech-tag blue">OCI</span>
+      <span class="tech-tag purple">Java</span>
+      <span class="tech-tag purple">Node.js</span>
       <span class="tech-tag">Terraform</span>
+      <span class="tech-tag">Oracle DB</span>
     </div>
   </article>
   <article class="case-card">
-    <span class="card-tag">Globant · Billing</span>
+    <span class="card-tag">Globant · Billing &amp; Payments · Jul 2021 – Feb 2025</span>
     <h3>Billing platform modernization</h3>
-    <p>Decomposed a billing monolith into service-oriented components, redesigned APIs and schemas, and shipped PCI-aligned hosted payment integrations at a Fortune 500 client.</p>
+    <p>Led backend decomposition of a monolithic billing system into service-oriented components at a Fortune 500 client. Rearchitected APIs, redesigned schemas for horizontal scaling, and delivered PCI-DSS-aligned hosted payment integrations end-to-end.</p>
     <ul>
-      <li>40% faster service performance</li>
-      <li>50% reduction in manual billing effort</li>
-      <li>18% faster PostgreSQL queries through indexing and query optimization</li>
-      <li>PCI-compliant hosted payment flows with Stripe and custom gateways</li>
+      <li>Decomposed billing monolith into independently deployable services — 40% improvement in service throughput and deployment velocity</li>
+      <li>Shipped PCI-compliant hosted payment flows integrating Stripe and multiple enterprise payment gateways with webhook reconciliation</li>
+      <li>Reduced PostgreSQL query latency by 18% via composite indexes, covering indexes, query plan analysis, and connection pool tuning</li>
+      <li>Built policy-based access control layer with RBAC, scoped JWT claims, and audit logging across all billing endpoints</li>
+      <li>Reduced manual billing operations effort by 50% through automated invoice generation, dunning workflows, and reconciliation pipelines</li>
+      <li>Introduced shift-left testing with 85%+ unit test coverage on business logic and contract testing across service boundaries</li>
     </ul>
     <div class="tech-tags">
       <span class="tech-tag purple">Node.js</span>
       <span class="tech-tag purple">TypeScript</span>
       <span class="tech-tag">PostgreSQL</span>
       <span class="tech-tag">Redis</span>
+      <span class="tech-tag">Stripe</span>
+      <span class="tech-tag orange">Jest</span>
     </div>
   </article>
   <article class="case-card">
-    <span class="card-tag">CasaOne · Operations</span>
-    <h3>Operations platform performance</h3>
-    <p>Built backend modules for warehouse, inventory, and logistics workflows while dramatically improving API reliability and admin productivity.</p>
+    <span class="card-tag">CasaOne · Operations Platform · Nov 2020 – Jul 2021</span>
+    <h3>Operations &amp; logistics platform</h3>
+    <p>Built backend systems for warehouse management, inventory tracking, and last-mile logistics at a Series B furniture rental startup. Focused on API performance, operational automation, and event-driven integration with 3PL and fulfillment partners.</p>
     <ul>
-      <li>Reduced API latency from 9–13s to under 2s</li>
-      <li>30% reduction in manual operations effort</li>
-      <li>Event-driven services with GCP Pub/Sub and test-first delivery</li>
+      <li>Diagnosed and resolved N+1 query patterns, missing indexes, and synchronous I/O bottlenecks — reduced API latency from 9–13s to under 2s</li>
+      <li>Built GCP Pub/Sub event pipeline for real-time inventory state sync across warehouse, delivery, and customer-facing systems</li>
+      <li>Delivered warehouse assignment, bin management, and transfer order modules with test-first development</li>
+      <li>Reduced manual operations effort by 30% through automated routing, SLA tracking, and exception escalation workflows</li>
+      <li>Integrated with 3PL partners via webhook adapters and idempotent job processors with retry semantics</li>
     </ul>
     <div class="tech-tags">
       <span class="tech-tag blue">GCP Pub/Sub</span>
       <span class="tech-tag purple">Node.js</span>
       <span class="tech-tag">MongoDB</span>
+      <span class="tech-tag">Redis</span>
+      <span class="tech-tag orange">Mocha</span>
     </div>
   </article>
   <article class="case-card">
-    <span class="card-tag">TrueSparrow · Web3</span>
-    <h3>Token economies on Ethereum &amp; Web3</h3>
-    <p>Built a Stripe-like enterprise platform for token economies backed by blockchain, with realtime systems for notifications, chat, media workflows, and Web3 APIs.</p>
+    <span class="card-tag">TrueSparrow · Web3 Infrastructure · Jun 2018 – Nov 2020</span>
+    <h3>Token economy platform on Ethereum</h3>
+    <p>Built backend infrastructure for OST — a Stripe-like platform for Ethereum-based branded token economies used by consumer apps. Delivered realtime systems, media processing pipelines, notification infrastructure, and contributed to multiple open-source packages shipped by the company.</p>
     <ul>
-      <li>Web3 REST APIs via Web3.js, RabbitMQ, DynamoDB, and MySQL</li>
-      <li>Throughput improvements with sharding, parallelism, and connection pooling</li>
-      <li>Core contributor to OST open-source cache, block scanner, and view projects</li>
+      <li>Designed and shipped Web3 REST APIs for token minting, transfers, and wallet management using Web3.js over Ethereum sidechains</li>
+      <li>Built RabbitMQ-driven async job processing for token transactions with retry, DLQ, and consistency guarantees across MySQL and DynamoDB</li>
+      <li>Improved system throughput by implementing request sharding, connection pool sizing, and async parallelism across worker pools</li>
+      <li>Delivered realtime notification service (WebSockets + Redis Pub/Sub), in-app chat backend, and media transcoding pipeline</li>
+      <li>Core contributor to OST Cache (universal caching library), OST Block Scanner (Ethereum chain indexer), and OST View (explorer UI backend)</li>
     </ul>
     <div class="tech-tags">
       <span class="tech-tag orange">Web3.js</span>
       <span class="tech-tag orange">RabbitMQ</span>
-      <span class="tech-tag">DynamoDB</span>
+      <span class="tech-tag purple">Node.js</span>
       <span class="tech-tag">MySQL</span>
+      <span class="tech-tag">DynamoDB</span>
+      <span class="tech-tag">Redis</span>
     </div>
   </article>
 </div>
@@ -227,89 +261,6 @@ description: Senior Backend & Cloud Engineer building distributed systems, cloud
       <p>Message brokers, queues, exchanges, routing, durability, and event-driven architecture fundamentals — published on Globant's engineering blog.</p>
     </div>
   </a>
-</div>
-
-## Experience
-
-<div class="timeline animate-in">
-  <div class="timeline-item">
-    <div class="timeline-dot"></div>
-    <div class="timeline-header">
-      <div>
-        <div class="timeline-role">Senior Software Engineer</div>
-        <div class="timeline-company">Qualys</div>
-      </div>
-      <span class="timeline-date">Mar 2025 – Present</span>
-    </div>
-    <p class="timeline-desc">Cloud security, multi-cloud scanning, distributed orchestration, and compliance automation for CSPM/DSPM/CWP platforms.</p>
-    <ul class="timeline-bullets">
-      <li>Architected multi-cloud agentless snapshot scanning platform (AWS, Azure, GCP, OCI)</li>
-      <li>Designed Kafka-driven microservices processing 50K+ daily events across 100+ enterprise environments</li>
-      <li>Engineered Azure cross-subscription snapshot architecture — 60% provisioning time reduction</li>
-      <li>Automated RBAC, Key Vault, and compliance workflows — 85% security violation reduction</li>
-    </ul>
-    <div class="tech-tags">
-      <span class="tech-tag accent">Kafka</span><span class="tech-tag blue">Azure</span><span class="tech-tag blue">AWS</span><span class="tech-tag blue">GCP</span><span class="tech-tag purple">Java</span><span class="tech-tag purple">Node.js</span><span class="tech-tag">Terraform</span>
-    </div>
-  </div>
-
-  <div class="timeline-item past">
-    <div class="timeline-dot"></div>
-    <div class="timeline-header">
-      <div>
-        <div class="timeline-role">Senior Software Engineer</div>
-        <div class="timeline-company">Globant</div>
-      </div>
-      <span class="timeline-date">Jul 2021 – Feb 2025</span>
-    </div>
-    <p class="timeline-desc">Billing platforms, payment integrations, policy-based access control, microservices, and full-stack delivery.</p>
-    <ul class="timeline-bullets">
-      <li>Decomposed billing monolith into service-oriented components — 40% perf improvement</li>
-      <li>Shipped PCI-compliant hosted payment integrations with major gateways</li>
-      <li>18% faster PostgreSQL queries via indexing, caching, and query planning</li>
-    </ul>
-    <div class="tech-tags">
-      <span class="tech-tag purple">TypeScript</span><span class="tech-tag purple">Node.js</span><span class="tech-tag">PostgreSQL</span><span class="tech-tag">Redis</span>
-    </div>
-  </div>
-
-  <div class="timeline-item past">
-    <div class="timeline-dot"></div>
-    <div class="timeline-header">
-      <div>
-        <div class="timeline-role">Software Engineer</div>
-        <div class="timeline-company">CasaOne</div>
-      </div>
-      <span class="timeline-date">Nov 2020 – Jul 2021</span>
-    </div>
-    <p class="timeline-desc">Inventory, warehouse, logistics, operations automation, and API performance optimization.</p>
-    <ul class="timeline-bullets">
-      <li>Reduced API latency from 9–13s to under 2s</li>
-      <li>Event-driven services with GCP Pub/Sub and test-first delivery</li>
-    </ul>
-    <div class="tech-tags">
-      <span class="tech-tag purple">Node.js</span><span class="tech-tag blue">GCP</span><span class="tech-tag">MongoDB</span>
-    </div>
-  </div>
-
-  <div class="timeline-item past">
-    <div class="timeline-dot"></div>
-    <div class="timeline-header">
-      <div>
-        <div class="timeline-role">Software Engineer</div>
-        <div class="timeline-company">TrueSparrow Systems</div>
-      </div>
-      <span class="timeline-date">Jun 2018 – Nov 2020</span>
-    </div>
-    <p class="timeline-desc">Web3 infrastructure, realtime systems, media workflows, notifications, and open-source backend tooling.</p>
-    <ul class="timeline-bullets">
-      <li>Built Stripe-like platform for Ethereum-based token economies</li>
-      <li>Core contributor to OST open-source ecosystem (cache, block scanner, view)</li>
-    </ul>
-    <div class="tech-tags">
-      <span class="tech-tag orange">Web3.js</span><span class="tech-tag purple">Node.js</span><span class="tech-tag orange">RabbitMQ</span><span class="tech-tag">MySQL</span>
-    </div>
-  </div>
 </div>
 
 ## Skills
