@@ -2,7 +2,7 @@
 layout: default
 title: The Stack
 description: Books, talks, and media that shape my engineering thinking.
-permalink: /books/
+permalink: /stack/
 ---
 
 <div class="section-header">
@@ -55,5 +55,40 @@ permalink: /books/
     <p><strong>Gary Bernhardt · Screencasts</strong></p>
     <p>Deep dives into Unix, programming principles, testing, and software design. Densest 10 minutes of learning per dollar on the internet.</p>
     <div class="tech-tags"><span class="tech-tag orange">Design</span><span class="tech-tag">Testing</span></div>
+  </article>
+</section>
+
+## Research Papers
+
+<p style="color: var(--text-sub); margin-bottom: 2rem;">Papers I keep coming back to on cloud-native databases, distributed streaming, and large-scale systems.</p>
+
+<section class="content-grid animate-in">
+  <article class="page-card">
+    <h3><a href="/assets/files/Research%20Papers/Amazon%20Aurora_%20Design%20Considerations%20for%20High%20Throughput%20Cloud-Native%20Relational%20Databases.pdf" target="_blank" rel="noopener">Amazon Aurora: Design Considerations for High Throughput Cloud-Native Relational Databases</a></h3>
+    <div class="tech-tags"><span class="tech-tag">Research Paper</span></div>
+  </article>
+  <article class="page-card">
+    <h3><a href="/assets/files/Research%20Papers/Amazon%20DynamoDB_%20A%20scalable%2C%20predictably%20performant%2C%20and%20fully%20managed%20NoSQL%20database%20service.pdf" target="_blank" rel="noopener">Amazon DynamoDB: A scalable, predictably performant, and fully managed NoSQL database service</a></h3>
+    <div class="tech-tags"><span class="tech-tag">Research Paper</span></div>
+  </article>
+  <article class="page-card">
+    <h3><a href="/assets/files/Research%20Papers/Kora_%20A%20Cloud-Native%20Event%20Streaming%20Platform%20For%20Kafka.pdf" target="_blank" rel="noopener">Kora: A Cloud-Native Event Streaming Platform For Kafka</a></h3>
+    <div class="tech-tags"><span class="tech-tag">Research Paper</span></div>
+  </article>
+  <article class="page-card">
+    <h3><a href="/assets/files/Research%20Papers/PolarDB-SCC_%20A%20Cloud-Native%20Database.pdf" target="_blank" rel="noopener">PolarDB-SCC: A Cloud-Native Database</a></h3>
+    <div class="tech-tags"><span class="tech-tag">Research Paper</span></div>
+  </article>
+  <article class="page-card">
+    <h3><a href="/assets/files/Research%20Papers/Real-time%20Data%20Infrastructure%20at%20Uber.pdf" target="_blank" rel="noopener">Real-time Data Infrastructure at Uber</a></h3>
+    <div class="tech-tags"><span class="tech-tag">Research Paper</span></div>
+  </article>
+  <article class="page-card">
+    <h3><a href="/assets/files/Research%20Papers/SILK%20-%20Preventing%20Latency%20Spikes%20in%20Log-Structured%20Merge%20Key-Value%20Stores.pdf" target="_blank" rel="noopener">SILK - Preventing Latency Spikes in Log-Structured Merge Key-Value Stores</a></h3>
+    <div class="tech-tags"><span class="tech-tag">Research Paper</span></div>
+  </article>
+  <article class="page-card">
+    <h3><a href="/assets/files/Research%20Papers/Web-scale%20Job%20Scheduling.pdf" target="_blank" rel="noopener">Web-scale Job Scheduling</a></h3>
+    <div class="tech-tags"><span class="tech-tag">Research Paper</span></div>
   </article>
 </section>
