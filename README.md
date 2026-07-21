@@ -42,6 +42,6 @@
 
 ## Contact
 
-- **Email:** [dhananjay.pict@gmail.com](mailto:dhananjay.pict@gmail.com)
+- **Email:** [dspatil.backend@gmail.com](mailto:dspatil.backend@gmail.com)
 - **LinkedIn:** [linkedin.com/in/dhananjay08patil](https://linkedin.com/in/dhananjay08patil)
 - **Portfolio:** [dhananjaypatil.is-a.dev](https://dhananjaypatil.is-a.dev)
