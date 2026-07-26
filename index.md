@@ -41,9 +41,9 @@ description: Senior Backend & Cloud Engineer building distributed systems, cloud
 
 <div class="metrics-grid animate-in">
   <div class="metric-card"><strong>7+</strong><span>years shipping production backend systems</span></div>
-  <div class="metric-card"><strong>4</strong><span>cloud platforms across enterprise SaaS</span></div>
-  <div class="metric-card"><strong>50K+</strong><span>daily events orchestrated at scale</span></div>
-  <div class="metric-card"><strong>202</strong><span>tests in the rate-limiter project alone</span></div>
+  <div class="metric-card"><strong>Programming</strong><span>Node.js, Python, Java</span></div>
+  <div class="metric-card"><strong>Software Development</strong><span>SaaS architecture, Technical Design, Solution Architecture, Distributed Systems</span></div>
+  <div class="metric-card"><strong>Domain Expertise</strong><span>Cloud Security, Fintech, E-commerce, Payments, Telecom, and Enterprise SaaS</span></div>
 </div>
 
 ## Experience
