@@ -37,7 +37,7 @@ description: Senior Backend & Cloud Engineer building distributed systems, cloud
   </div>
 </section>
 
-## At a glance
+<!-- ## At a glance -->
 
 <!-- <div class="metrics-grid animate-in">
   <div class="metric-card"><strong>7+</strong><span>years shipping production backend systems</span></div>
