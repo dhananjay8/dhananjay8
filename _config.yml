@@ -1,3 +1,35 @@
 title: Dhananjay Patil | Senior Backend & Cloud Engineer
 description: Senior Backend & Cloud Engineer building distributed systems, cloud security platforms, and high-scale SaaS products.
+url: https://dhananjaypatil.is-a.dev
+author:
+  name: Dhananjay Patil
+  email: dspatil.backend@gmail.com
+logo: /assets/images/profile.jpeg
 show_downloads: false
+
+twitter:
+  username: dsp__8
+  card: summary
+
+social:
+  name: Dhananjay Patil
+  links:
+    - https://linkedin.com/in/dhananjay08patil
+    - https://github.com/dhananjay8
+    - https://twitter.com/dsp__8
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image:
+        path: /assets/images/profile.jpeg
+        alt: Dhananjay Patil profile photo
+
+feed:
+  path: /feed.xml

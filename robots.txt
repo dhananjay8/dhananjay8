@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dhananjaypatil.is-a.dev/sitemap.xml

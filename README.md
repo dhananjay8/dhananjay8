@@ -40,6 +40,25 @@
 
 - [Introduction to RabbitMQ](https://medium.com/globant/introduction-to-rabbitmq-5af1a58b942e)
 
+## Local development
+
+This site is built with [Jekyll](https://jekyllrb.com/) and deployed to GitHub Pages.
+
+```bash
+# Install dependencies
+bundle install
+
+# Serve locally with live reload
+bundle exec jekyll serve --livereload
+
+# Build the site
+bundle exec jekyll build
+```
+
+## Deployment
+
+Pushes to `main` are built and published automatically via GitHub Pages. See `.github/workflows/ci.yml` for the build and link-check pipeline.
+
 ## Contact
 
 - **Email:** [dspatil.backend@gmail.com](mailto:dspatil.backend@gmail.com)

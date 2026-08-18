@@ -15,7 +15,7 @@ description: Senior Backend & Cloud Engineer building distributed systems, cloud
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 7L2 7"/></svg>
           Contact me
         </a>
-        <a class="button" href="assets/files/Dhananjay_Patil_Software_Engineer_Resume.pdf" target="_blank">
+        <a class="button" href="/resume/">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
           Resume
         </a>
@@ -33,18 +33,9 @@ description: Senior Backend & Cloud Engineer building distributed systems, cloud
         </a>
       </div>
     </div>
-    <img class="profile-photo" src="/assets/images/profile.jpeg" alt="Dhananjay Patil">
+    <img class="profile-photo" src="/assets/images/profile.jpeg" alt="Dhananjay Patil" width="800" height="800" loading="eager" decoding="async" fetchpriority="high">
   </div>
 </section>
-
-<!-- ## At a glance -->
-
-<!-- <div class="metrics-grid animate-in">
-  <div class="metric-card"><strong>7+</strong><span>years shipping production backend systems</span></div>
-  <div class="metric-card"><strong>Programming</strong><span>Node.js, Python, Java</span></div>
-  <div class="metric-card"><strong>Software Development</strong><span>SaaS architecture, Technical Design, Solution Architecture, Distributed Systems</span></div>
-  <div class="metric-card"><strong>Domain Expertise</strong><span>Cloud Security, Fintech, E-commerce, Payments, Telecom, and Enterprise SaaS</span></div>
-</div> -->
 
 ## Experience
 
@@ -290,21 +281,21 @@ description: Senior Backend & Cloud Engineer building distributed systems, cloud
 
 <div class="edu-list animate-in">
   <div class="edu-item">
-    <div class="edu-badge">🎓</div>
+    <div class="edu-badge"><span role="img" aria-label="Degree">🎓</span></div>
     <div>
       <div class="edu-degree">MBA, IT &amp; Systems Management</div>
       <div class="edu-school">NMIMS, Mumbai</div>
     </div>
   </div>
   <div class="edu-item">
-    <div class="edu-badge">🎓</div>
+    <div class="edu-badge"><span role="img" aria-label="Degree">🎓</span></div>
     <div>
       <div class="edu-degree">B.E., Computer Engineering</div>
       <div class="edu-school">Pune Institute of Computer Technology</div>
     </div>
   </div>
   <div class="edu-item">
-    <div class="edu-badge">📜</div>
+    <div class="edu-badge"><span role="img" aria-label="Certification">📜</span></div>
     <div>
       <div class="edu-degree">MongoDB SI Associate · Neo4j Certified Professional</div>
       <div class="edu-school">GCP ACE &amp; AWS DBS in progress</div>
