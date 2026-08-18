@@ -416,6 +416,6 @@ permalink: /stack/
     <div class="tech-tags"><span class="tech-tag">YouTube</span></div>
   </article>
 </section>
-<button class="button toggle-videos" type="button">Show all 63 videos</button>
+<button class="button toggle-videos" type="button" data-collapsed-text="Show all 63 videos" data-expanded-text="Show fewer videos">Show all 63 videos</button>
 </div>
 
