@@ -218,25 +218,46 @@ description: Senior Backend & Cloud Engineer building distributed systems, cloud
   <article class="case-card">
     <span class="card-tag">Compliance Automation</span>
     <h3>Continuous compliance automation prototype</h3>
-    <p>A Vanta-style trust management prototype with a Trust Graph, connector workers, resource normalization, policy/rule engine, test evaluation, evidence store, auditor portal, and seed data for SOC 2, ISO 27001, GDPR, HIPAA, PCI DSS, CIS, and NIST.</p>
+    <p>Vanta-like continuous compliance automation. FastAPI backend with Pydantic v2, PostgreSQL schema, rule engine, worker, evidence store, RAG pipeline for compliance Q&amp;A, and seed data for SOC 2, ISO 27001, GDPR, HIPAA, PCI DSS, CIS, and NIST.</p>
     <div class="tech-tags">
-      <span class="tech-tag accent">Node.js</span>
-      <span class="tech-tag purple">TypeScript</span>
+      <span class="tech-tag purple">Python</span>
+      <span class="tech-tag accent">FastAPI</span>
       <span class="tech-tag blue">PostgreSQL</span>
-      <span class="tech-tag">Redis</span>
-      <span class="tech-tag">Prisma</span>
+      <span class="tech-tag">Pydantic</span>
+      <span class="tech-tag">RAG</span>
     </div>
   </article>
   <article class="case-card">
     <span class="card-tag">Backend Framework</span>
     <h3>Custom rate limiter</h3>
-    <p>Production-grade Python rate limiting framework with 6 algorithms, 3 storage backends, adaptive limiting, weighted/coalesced requests, quota sharing, circuit breaker resilience, and OpenAPI/Swagger docs. 202 tests, 87% coverage.</p>
+    <p>Production-grade Python rate limiting framework with 6 algorithms, 3 storage backends, adaptive limiting, weighted/coalesced requests, quota sharing, circuit breaker resilience, dry-run diagnostics, Azure Bicep infra, CI/CD, and OpenAPI/Swagger docs. 202 tests, 87% coverage.</p>
     <div class="tech-tags">
       <span class="tech-tag purple">Python</span>
       <span class="tech-tag">Flask</span>
       <span class="tech-tag">Redis</span>
       <span class="tech-tag">SQLite</span>
-      <span class="tech-tag orange">pytest</span>
+      <span class="tech-tag">Azure Bicep</span>
+    </div>
+  </article>
+  <article class="case-card">
+    <span class="card-tag">Research</span>
+    <h3>AWS Lambda concurrency research</h3>
+    <p>Survey and simulation-based evaluation of AWS Lambda concurrency challenges. Challenge taxonomy, four mitigation patterns, calibrated discrete-time simulation, and a runnable E2E AWS measurement harness.</p>
+    <div class="tech-tags">
+      <span class="tech-tag purple">Python</span>
+      <span class="tech-tag accent">AWS Lambda</span>
+      <span class="tech-tag">Simulation</span>
+      <span class="tech-tag">Research</span>
+    </div>
+  </article>
+  <article class="case-card">
+    <span class="card-tag">Sustainability</span>
+    <h3>Green cloud metrics</h3>
+    <p>Azure cloud sustainability analytics and carbon footprint measurement tooling. Energy tracking, resource tagging, and cost-aware environmental reports.</p>
+    <div class="tech-tags">
+      <span class="tech-tag blue">Azure</span>
+      <span class="tech-tag purple">Python</span>
+      <span class="tech-tag">Sustainability</span>
     </div>
   </article>
 </div>
