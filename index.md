@@ -1,15 +1,15 @@
 ---
 layout: default
 title: Dhananjay Patil
-description: Senior Backend & Cloud Engineer building distributed systems, cloud security platforms, and high-scale SaaS products.
+description: Staff-level backend and cloud engineer designing distributed systems, cloud security platforms, and reliable AI systems at scale.
 ---
 
 <section class="hero animate-in visible">
   <div class="hero-inner">
     <div>
-      <p class="eyebrow">Senior Backend &amp; Cloud Engineer</p>
+      <p class="eyebrow">Staff-level Backend &amp; Cloud Engineer</p>
       <h1>Dhananjay<br>Patil</h1>
-      <p class="hero-copy">I build distributed backend platforms, cloud-native security systems, and resilient multi-cloud automation for product teams operating at scale.</p>
+      <p class="hero-copy">I lead architecture for distributed platforms, cloud security systems, and reliable AI workflows — turning ambiguous problems into resilient systems that teams can operate at scale.</p>
       <div class="hero-actions">
         <a class="button primary" href="mailto:dspatil.backend@gmail.com">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 7L2 7"/></svg>
@@ -212,9 +212,20 @@ description: Senior Backend & Cloud Engineer building distributed systems, cloud
 
 ## Featured projects
 
-<p style="color: var(--text-sub); margin-bottom: 2rem;">Recent public work — architecture, backend systems, and production tooling.</p>
+<p style="color: var(--text-sub); margin-bottom: 2rem;">Selected architecture work spanning cloud security, platform engineering, reliability, and applied AI.</p>
 
 <div class="case-grid animate-in">
+  <article class="case-card">
+    <span class="card-tag">Applied AI · Azure</span>
+    <h3>Grounded policy Q&amp;A platform</h3>
+    <p>Production-deployed LangGraph service on Azure Container Apps with deterministic citation validation, Azure OpenAI, OpenTelemetry traces, managed identity, and live DeepEval quality gates.</p>
+    <div class="tech-tags">
+      <span class="tech-tag purple">Python</span>
+      <span class="tech-tag accent">LangGraph</span>
+      <span class="tech-tag blue">Azure</span>
+      <span class="tech-tag">OpenTelemetry</span>
+    </div>
+  </article>
   <article class="case-card">
     <span class="card-tag">Compliance Automation</span>
     <h3>Continuous compliance automation prototype</h3>
@@ -248,16 +259,6 @@ description: Senior Backend & Cloud Engineer building distributed systems, cloud
       <span class="tech-tag accent">AWS Lambda</span>
       <span class="tech-tag">Simulation</span>
       <span class="tech-tag">Research</span>
-    </div>
-  </article>
-  <article class="case-card">
-    <span class="card-tag">Sustainability</span>
-    <h3>Green cloud metrics</h3>
-    <p>Azure cloud sustainability analytics and carbon footprint measurement tooling. Energy tracking, resource tagging, and cost-aware environmental reports.</p>
-    <div class="tech-tags">
-      <span class="tech-tag blue">Azure</span>
-      <span class="tech-tag purple">Python</span>
-      <span class="tech-tag">Sustainability</span>
     </div>
   </article>
 </div>
