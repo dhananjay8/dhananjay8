@@ -121,16 +121,6 @@ permalink: /resume/
   <div class="skill-group"><strong>Observability</strong><span>ELK, Kibana, Prometheus, Grafana, OpenTelemetry, structured logging</span></div>
 </div>
 
-## Selected Impact
-
-<ul>
-  <li><strong>60%</strong> faster Azure snapshot provisioning</li>
-  <li><strong>40%</strong> faster cloud discovery coverage</li>
-  <li><strong>40%</strong> faster billing platform performance</li>
-  <li><strong>9–13s → 1–2s</strong> API latency reduction</li>
-  <li><strong>30%</strong> reduction in manual operations effort</li>
-</ul>
-
 ## Contact
 
 <div class="contact-grid">
