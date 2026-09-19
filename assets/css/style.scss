@@ -28,6 +28,8 @@
 
   --blue:          #58a6ff;
   --purple:        #a78bfa;
+  --purple-dim:    rgba(167, 139, 250, 0.06);
+  --purple-border: rgba(167, 139, 250, 0.3);
   --orange:        #f78166;
 
   --text:          #e6edf3;
@@ -72,6 +74,8 @@
 
   --blue:          #0969da;
   --purple:        #8250df;
+  --purple-dim:    rgba(130, 80, 223, 0.08);
+  --purple-border: rgba(130, 80, 223, 0.28);
   --orange:        #bc4c00;
 
   --text:          #1f2328;
@@ -964,7 +968,7 @@ code {
   padding: 0.6rem 0.9rem;
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
-  background: rgba(13,17,23,0.5);
+  background: var(--bg-card);
   font-size: 0.875rem;
   color: var(--text-sub);
   transition: border-color var(--transition);
@@ -977,12 +981,14 @@ code {
   color: var(--text-muted);
   text-decoration: line-through;
   text-decoration-color: var(--accent);
+  background: var(--accent-dim);
+  border-color: var(--accent-border);
 }
 
 .list-100 li.active {
   color: var(--text);
-  border-color: rgba(167,139,250,0.3);
-  background: rgba(167,139,250,0.05);
+  border-color: var(--purple-border);
+  background: var(--purple-dim);
 }
 
 .list-100-simple {
@@ -997,7 +1003,7 @@ code {
   padding: 0.55rem 0.9rem;
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
-  background: rgba(13,17,23,0.5);
+  background: var(--bg-card);
   font-size: 0.875rem;
   color: var(--text-sub);
   transition: border-color var(--transition);
@@ -1010,12 +1016,14 @@ code {
   color: var(--text-muted);
   text-decoration: line-through;
   text-decoration-color: var(--accent);
+  background: var(--accent-dim);
+  border-color: var(--accent-border);
 }
 
 .list-100-simple li.active {
   color: var(--text);
-  border-color: rgba(167,139,250,0.3);
-  background: rgba(167,139,250,0.05);
+  border-color: var(--purple-border);
+  background: var(--purple-dim);
 }
 
 /* ---- Empty state ---- */
