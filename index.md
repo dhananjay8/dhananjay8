@@ -122,90 +122,74 @@ description: Staff-level backend and cloud engineer designing distributed system
 
 ## Engineering stories
 
-<div class="case-grid animate-in">
-  <article class="case-card">
-    <span class="card-tag">Qualys · Cloud Security · Mar 2025 – Present</span>
-    <h3>Multi-cloud workload protection platform</h3>
-    <p>Architected the CWP, CSPM, and DSPM scanning engine at Qualys — a distributed, event-driven platform that performs zero-touch agentless snapshot scanning across AWS, Azure, GCP, and OCI. Built entirely on Kafka-driven microservices with Redis-backed distributed coordination, Oracle persistence, and cross-subscription cloud integrations.</p>
-    <ul>
-      <li>Designed partition-aware Kafka consumer topology processing 50K+ cloud lifecycle events daily across 100+ concurrent enterprise environments</li>
-      <li>Engineered Azure cross-subscription snapshot architecture — snapshots created in service subscription, source disks in target subscription — reducing provisioning time by 60%</li>
-      <li>Built IMDS-based managed identity auth for disk attach/detach and storage upload at scan time, eliminating SAS token surface area</li>
-      <li>Automated RBAC role assignments, Key Vault encryption policies, NSG rules, and VNet peering via governed Terraform IaC — 85% reduction in security violations</li>
-      <li>Implemented dead-letter handling, Redis-based idempotency guards, and multi-phase setup/cleanup orchestration (NSG → VNet → KeyVault → Storage → FunctionApp)</li>
-      <li>Designed multi-volume disk attach flow with IMDS LUN mapping and parallel mount handling for OS and data disk scanning</li>
-    </ul>
-    <div class="tech-tags">
-      <span class="tech-tag accent">Kafka</span>
-      <span class="tech-tag accent">Redis</span>
-      <span class="tech-tag blue">Azure</span>
-      <span class="tech-tag blue">AWS</span>
-      <span class="tech-tag blue">GCP</span>
-      <span class="tech-tag blue">OCI</span>
-      <span class="tech-tag purple">Java</span>
-      <span class="tech-tag purple">Node.js</span>
-      <span class="tech-tag">Terraform</span>
-      <span class="tech-tag">Oracle DB</span>
+<p class="section-intro">Selected examples of turning ambiguous, high-stakes platform problems into systems that teams can operate and evolve.</p>
+
+<div class="story-list animate-in">
+  <article class="story-item">
+    <div class="story-rail"><span>01</span></div>
+    <div class="story-main">
+      <div class="story-header">
+        <div><span class="story-company">Qualys</span><h3>Multi-cloud workload protection platform</h3></div>
+        <span class="story-period">2025 — Present</span>
+      </div>
+      <p class="story-lead">Architected the distributed scanning engine behind CWP, CSPM, and DSPM workflows across AWS, Azure, GCP, and OCI.</p>
+      <div class="story-detail-grid">
+        <div><strong>Challenge</strong><p>Coordinate zero-touch snapshot scanning across customer cloud boundaries without compromising isolation, cleanup, or operability.</p></div>
+        <div><strong>Architecture</strong><p>Kafka-driven services, Redis coordination, managed identity, governed Terraform, and explicit multi-phase setup and teardown.</p></div>
+      </div>
+      <div class="story-impact"><span><strong>50K+</strong> events/day</span><span><strong>100+</strong> environments</span><span><strong>60%</strong> faster provisioning</span><span><strong>85%</strong> fewer violations</span></div>
+      <div class="story-tech">Kafka · Redis · Azure · AWS · GCP · OCI · Java · Node.js · Terraform</div>
     </div>
   </article>
-  <article class="case-card">
-    <span class="card-tag">Globant · Billing &amp; Payments · Jul 2021 – Feb 2025</span>
-    <h3>Billing platform modernization</h3>
-    <p>Led backend decomposition of a monolithic billing system into service-oriented components at a Fortune 500 client. Rearchitected APIs, redesigned schemas for horizontal scaling, and delivered PCI-DSS-aligned hosted payment integrations end-to-end.</p>
-    <ul>
-      <li>Decomposed billing monolith into independently deployable services — 40% improvement in service throughput and deployment velocity</li>
-      <li>Shipped PCI-compliant hosted payment flows integrating Stripe and multiple enterprise payment gateways with webhook reconciliation</li>
-      <li>Reduced PostgreSQL query latency by 18% via composite indexes, covering indexes, query plan analysis, and connection pool tuning</li>
-      <li>Built policy-based access control layer with RBAC, scoped JWT claims, and audit logging across all billing endpoints</li>
-      <li>Reduced manual billing operations effort by 50% through automated invoice generation, dunning workflows, and reconciliation pipelines</li>
-      <li>Introduced shift-left testing with 85%+ unit test coverage on business logic and contract testing across service boundaries</li>
-    </ul>
-    <div class="tech-tags">
-      <span class="tech-tag purple">Node.js</span>
-      <span class="tech-tag purple">TypeScript</span>
-      <span class="tech-tag">PostgreSQL</span>
-      <span class="tech-tag">Redis</span>
-      <span class="tech-tag">Stripe</span>
-      <span class="tech-tag orange">Jest</span>
+
+  <article class="story-item">
+    <div class="story-rail"><span>02</span></div>
+    <div class="story-main">
+      <div class="story-header">
+        <div><span class="story-company">Globant</span><h3>Billing platform modernization</h3></div>
+        <span class="story-period">2021 — 2025</span>
+      </div>
+      <p class="story-lead">Led backend decomposition of a monolithic billing platform while preserving payment correctness and delivery continuity.</p>
+      <div class="story-detail-grid">
+        <div><strong>Challenge</strong><p>Modernize tightly coupled billing workflows under PCI constraints without a risky all-at-once rewrite.</p></div>
+        <div><strong>Architecture</strong><p>Incremental service boundaries, idempotent payment flows, webhook reconciliation, scoped authorization, and contract-focused testing.</p></div>
+      </div>
+      <div class="story-impact"><span><strong>40%</strong> better throughput</span><span><strong>18%</strong> lower query latency</span><span><strong>50%</strong> less manual effort</span><span><strong>85%+</strong> test coverage</span></div>
+      <div class="story-tech">Node.js · TypeScript · PostgreSQL · Redis · Stripe · Jest</div>
     </div>
   </article>
-  <article class="case-card">
-    <span class="card-tag">CasaOne · Operations Platform · Nov 2020 – Jul 2021</span>
-    <h3>Operations &amp; logistics platform</h3>
-    <p>Built backend systems for warehouse management, inventory tracking, and last-mile logistics at a Series B furniture rental startup. Focused on API performance, operational automation, and event-driven integration with 3PL and fulfillment partners.</p>
-    <ul>
-      <li>Diagnosed and resolved N+1 query patterns, missing indexes, and synchronous I/O bottlenecks — reduced API latency from 9–13s to under 2s</li>
-      <li>Built GCP Pub/Sub event pipeline for real-time inventory state sync across warehouse, delivery, and customer-facing systems</li>
-      <li>Delivered warehouse assignment, bin management, and transfer order modules with test-first development</li>
-      <li>Reduced manual operations effort by 30% through automated routing, SLA tracking, and exception escalation workflows</li>
-      <li>Integrated with 3PL partners via webhook adapters and idempotent job processors with retry semantics</li>
-    </ul>
-    <div class="tech-tags">
-      <span class="tech-tag blue">GCP Pub/Sub</span>
-      <span class="tech-tag purple">Node.js</span>
-      <span class="tech-tag">MongoDB</span>
-      <span class="tech-tag">Redis</span>
-      <span class="tech-tag orange">Mocha</span>
+
+  <article class="story-item">
+    <div class="story-rail"><span>03</span></div>
+    <div class="story-main">
+      <div class="story-header">
+        <div><span class="story-company">CasaOne</span><h3>Operations and logistics platform</h3></div>
+        <span class="story-period">2020 — 2021</span>
+      </div>
+      <p class="story-lead">Reworked critical warehouse and inventory paths to make operational systems fast, event-driven, and resilient to partner failures.</p>
+      <div class="story-detail-grid">
+        <div><strong>Challenge</strong><p>Slow APIs and manual coordination were constraining warehouse, delivery, and customer-facing workflows.</p></div>
+        <div><strong>Architecture</strong><p>Query-plan optimization, GCP Pub/Sub state synchronization, idempotent partner adapters, retries, and SLA-aware escalation.</p></div>
+      </div>
+      <div class="story-impact"><span><strong>9–13s → &lt;2s</strong> API latency</span><span><strong>30%</strong> less manual effort</span><span><strong>Real-time</strong> inventory sync</span></div>
+      <div class="story-tech">GCP Pub/Sub · Node.js · MongoDB · Redis · Mocha</div>
     </div>
   </article>
-  <article class="case-card">
-    <span class="card-tag">TrueSparrow · Web3 Infrastructure · Jun 2018 – Nov 2020</span>
-    <h3>Token economy platform on Ethereum</h3>
-    <p>Built backend infrastructure for OST — a Stripe-like platform for Ethereum-based branded token economies used by consumer apps. Delivered realtime systems, media processing pipelines, notification infrastructure, and contributed to multiple open-source packages shipped by the company.</p>
-    <ul>
-      <li>Designed and shipped Web3 REST APIs for token minting, transfers, and wallet management using Web3.js over Ethereum sidechains</li>
-      <li>Built RabbitMQ-driven async job processing for token transactions with retry, DLQ, and consistency guarantees across MySQL and DynamoDB</li>
-      <li>Improved system throughput by implementing request sharding, connection pool sizing, and async parallelism across worker pools</li>
-      <li>Delivered realtime notification service (WebSockets + Redis Pub/Sub), in-app chat backend, and media transcoding pipeline</li>
-      <li>Core contributor to OST Cache (universal caching library), OST Block Scanner (Ethereum chain indexer), and OST View (explorer UI backend)</li>
-    </ul>
-    <div class="tech-tags">
-      <span class="tech-tag orange">Web3.js</span>
-      <span class="tech-tag orange">RabbitMQ</span>
-      <span class="tech-tag purple">Node.js</span>
-      <span class="tech-tag">MySQL</span>
-      <span class="tech-tag">DynamoDB</span>
-      <span class="tech-tag">Redis</span>
+
+  <article class="story-item">
+    <div class="story-rail"><span>04</span></div>
+    <div class="story-main">
+      <div class="story-header">
+        <div><span class="story-company">TrueSparrow</span><h3>Token economy infrastructure</h3></div>
+        <span class="story-period">2018 — 2020</span>
+      </div>
+      <p class="story-lead">Built transaction, realtime, and developer infrastructure for Ethereum-based branded token economies.</p>
+      <div class="story-detail-grid">
+        <div><strong>Challenge</strong><p>Expose blockchain operations through familiar APIs while managing asynchronous confirmation, retries, and consistency.</p></div>
+        <div><strong>Architecture</strong><p>Web3 APIs, RabbitMQ workers with dead-letter handling, sharded processing, realtime notifications, and reusable open-source tooling.</p></div>
+      </div>
+      <div class="story-impact"><span><strong>3</strong> open-source systems</span><span><strong>Async</strong> transaction guarantees</span><span><strong>Realtime</strong> client updates</span></div>
+      <div class="story-tech">Web3.js · RabbitMQ · Node.js · MySQL · DynamoDB · Redis</div>
     </div>
   </article>
 </div>
@@ -261,13 +245,6 @@ description: Staff-level backend and cloud engineer designing distributed system
       <span class="tech-tag">Research</span>
     </div>
   </article>
-</div>
-
-<div class="section-cta animate-in">
-  <a class="button" href="/projects/">
-    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
-    View all projects
-  </a>
 </div>
 
 ## Writing
