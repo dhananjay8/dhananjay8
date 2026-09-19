@@ -1,16 +1,22 @@
 ---
 layout: default
-title: AWS Lambda Concurrency Research
-description: Survey and simulation-based evaluation of concurrency challenges in AWS Lambda — reserved/provisioned concurrency, burst limiter, and queue-based load leveling.
+title: Concurrency Challenges in AWS Lambda
+subtitle: A Survey and Simulation-Based Evaluation
+description: A reproducible comparison of AWS Lambda reserved concurrency, provisioned concurrency, burst limiting, and queue-based load leveling.
 permalink: /papers/aws-lambda-concurrency/
 ---
 
+<article class="research-article">
 <div class="section-header">
   <h2>Concurrency Challenges in AWS Lambda</h2>
-  <span class="section-tag">research paper</span>
+  <span class="section-tag">research article</span>
 </div>
 
-<p style="color: var(--text-sub); margin-bottom: 2rem;">A survey and simulation-based evaluation of AWS Lambda concurrency controls: reserved concurrency, provisioned concurrency, the token-bucket burst limiter, and queue-based load leveling.</p>
+<p class="article-deck">A survey and simulation-based evaluation of reserved concurrency, provisioned concurrency, burst-rate limiting, and queue-based load leveling.</p>
+
+<div class="article-meta"><span>Dhananjay Patil</span><span>2026</span><span>12 min read</span></div>
+
+> **Note to practitioners:** Use provisioned concurrency for synchronous, latency-sensitive traffic. Use queue-based buffering for asynchronous, delay-tolerant workloads. Treat reserved concurrency as an isolation control and size it for peak demand plus headroom.
 
 ## Abstract
 
@@ -65,7 +71,8 @@ All scenarios share the same step-burst arrival process so only the concurrency-
 
 ## Links
 
-- <a href="https://github.com/dhananjay8/aws-lambda-concurrency-research" target="_blank" rel="noopener">GitHub repository</a> — public release coming soon
-- <a href="https://medium.com/globant/introduction-to-rabbitmq-5af1a58b942e" target="_blank" rel="noopener">Related writing: Introduction to RabbitMQ</a>
+- <a href="https://github.com/dhananjay8" target="_blank" rel="noopener">Explore my engineering work on GitHub</a>
+- <a href="/blog/">More writing on distributed systems and cloud engineering</a>
 
 <p style="margin-top: 2rem; color: var(--text-muted); font-size: 0.875rem; font-style: italic;">All simulated results use a fixed random seed (42) and are fully reproducible via <code>python -m sim.run_all</code>.</p>
+</article>
