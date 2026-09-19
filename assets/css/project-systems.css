@@ -68,46 +68,6 @@
   text-transform: uppercase;
 }
 .system-facts dd { margin: 0; font-size: 0.68rem; line-height: 1.4; color: var(--text-sub); }
-.comparison-wrap {
-  overflow-x: auto;
-  margin-bottom: 1.25rem;
-  border: 1px solid var(--border);
-  border-radius: var(--radius-md);
-}
-.project-comparison {
-  width: 100%;
-  min-width: 760px;
-  border-collapse: collapse;
-  font-size: 0.78rem;
-}
-.project-comparison th, .project-comparison td {
-  padding: 0.85rem 1rem;
-  border-bottom: 1px solid var(--border);
-  text-align: left;
-  color: var(--text-sub);
-}
-.project-comparison thead th {
-  font-family: var(--font-mono);
-  font-size: 0.65rem;
-  color: var(--accent);
-  background: var(--soft-bg);
-  text-transform: uppercase;
-}
-.project-comparison tbody th { color: var(--text); white-space: nowrap; }
-.project-comparison tbody tr:last-child > * { border-bottom: 0; }
-.project-comparison tbody tr:hover { background: var(--soft-bg); }
-.architecture-note {
-  display: grid;
-  grid-template-columns: minmax(180px, 0.7fr) minmax(0, 2fr);
-  gap: 1.5rem;
-  margin-bottom: 3.5rem;
-  padding: 1.25rem 1.4rem;
-  border-left: 3px solid var(--accent);
-  border-radius: 0 var(--radius-md) var(--radius-md) 0;
-  background: var(--accent-dim);
-}
-.architecture-note strong { color: var(--text); }
-.architecture-note p { margin: 0; font-size: 0.82rem; color: var(--text-sub); }
 
 @media (max-width: 760px) {
   .project-spectrum { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -116,5 +76,4 @@
   .flagship-grid { grid-template-columns: 1fr; }
   .system-facts { grid-template-columns: 1fr; }
   .system-card { min-height: 0; }
-  .architecture-note { grid-template-columns: 1fr; gap: 0.5rem; }
 }

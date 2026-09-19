@@ -61,33 +61,14 @@ permalink: /projects/
   <article class="oss-card featured system-card">
     <div class="system-card-top"><span class="system-type">The sentinel</span><span>Streaming security</span></div>
     <div class="oss-card-header">
-      <a href="https://github.com/dhananjay8/runtime-anomaly-platform" target="_blank" rel="noopener">Runtime Anomaly Platform</a>
+      <a href="https://github.com/dhananjay8/runtime-anomaly-platform" target="_blank" rel="noopener">eBPF Runtime Anomaly Platform</a>
     </div>
-    <p>Always-on container security pipeline that turns kernel-level eBPF telemetry into 18-dimensional behavioral windows, scores them with Isolation Forest, and exposes explainable anomalies with sub-second kernel-to-alert latency.</p>
+    <p>Five-service, streaming-first container security system: eBPF probes capture syscalls, process execution, and network activity; Kafka carries events through ingestion and 30-second feature windows; Isolation Forest produces explainable alerts with sub-second kernel-to-detection latency.</p>
     <dl class="system-facts">
-      <div><dt>Signal</dt><dd>Syscalls, network, processes</dd></div><div><dt>Output</dt><dd>Severity and contributors</dd></div><div><dt>Model</dt><dd>Unsupervised ML, no LLM</dd></div>
+      <div><dt>Telemetry</dt><dd>Zero-instrumentation eBPF</dd></div><div><dt>Detection</dt><dd>18 behavioral features</dd></div><div><dt>Reliability</dt><dd>DLTs, idempotency, circuit breakers</dd></div>
     </dl>
     <div class="tech-tags"><span class="tech-tag accent">Kafka</span><span class="tech-tag">eBPF/BCC</span><span class="tech-tag purple">Spring Boot</span><span class="tech-tag">Isolation Forest</span><span class="tech-tag">Oracle</span></div>
   </article>
-</div>
-
-## Architecture comparison
-
-<div class="comparison-wrap animate-in">
-<table class="project-comparison">
-  <thead><tr><th>System</th><th>Primary model</th><th>Data plane</th><th>State</th><th>Latency</th></tr></thead>
-  <tbody>
-    <tr><th>Compliance Automation</th><td>Continuous platform</td><td>Integrations → rules → evidence</td><td>PostgreSQL</td><td>Human-interactive</td></tr>
-    <tr><th>Compliance Evaluator</th><td>Batch graph</td><td>Documents → retrieval → verdicts</td><td>Elasticsearch</td><td>Minutes</td></tr>
-    <tr><th>Policy Q&amp;A</th><td>Request/response graph</td><td>Question → retrieval → cited answer</td><td>FAISS + memory</td><td>Seconds</td></tr>
-    <tr><th>Runtime Anomaly Platform</th><td>Event streaming</td><td>Kernel → windows → anomaly score</td><td>Kafka + Oracle</td><td>Sub-second</td></tr>
-  </tbody>
-</table>
-</div>
-
-<div class="architecture-note animate-in">
-  <strong>One compliance domain, three responsibilities.</strong>
-  <p>The automation platform runs the compliance program, the evaluator audits policy artifacts, and the Q&amp;A service makes policy knowledge accessible. They reuse grounding and retrieval patterns without collapsing distinct personas, data models, or correctness boundaries into one oversized system.</p>
 </div>
 
 ## Selected systems

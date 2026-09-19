@@ -238,7 +238,7 @@ description: Staff-level backend and cloud engineer designing distributed system
   </article>
   <article class="case-card">
     <span class="card-tag">Sentinel · Runtime Security</span>
-    <h3><a href="https://github.com/dhananjay8/runtime-anomaly-platform" target="_blank" rel="noopener">Runtime anomaly platform</a></h3>
+    <h3><a href="https://github.com/dhananjay8/runtime-anomaly-platform" target="_blank" rel="noopener">eBPF runtime anomaly platform</a></h3>
     <p>Five-service streaming pipeline that converts eBPF kernel telemetry into behavioral windows and explainable Isolation Forest alerts with dead-letter recovery and sub-second detection.</p>
     <div class="tech-tags">
       <span class="tech-tag accent">Kafka</span>
