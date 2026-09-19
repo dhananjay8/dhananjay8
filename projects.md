@@ -10,32 +10,84 @@ permalink: /projects/
   <span class="section-tag">architecture · systems · AI</span>
 </div>
 
-<p style="color: var(--text-sub); margin-bottom: 2rem;">A focused selection of systems that demonstrate architecture leadership, reliability engineering, cloud security, and production-minded AI.</p>
+<p style="color: var(--text-sub); margin-bottom: 2rem;">A focused portfolio of systems spanning multi-tenant SaaS, constrained AI evaluation, conversational retrieval, and real-time streaming security.</p>
+
+<div class="project-spectrum animate-in" aria-label="System architecture spectrum">
+  <div><span>Platform</span><strong>Operate compliance</strong><small>Continuous lifecycle</small></div>
+  <div><span>Engine</span><strong>Audit policies</strong><small>Rule-by-rule evaluation</small></div>
+  <div><span>Interface</span><strong>Answer questions</strong><small>Conversational access</small></div>
+  <div><span>Sentinel</span><strong>Detect anomalies</strong><small>Always-on runtime defense</small></div>
+</div>
 
 ## Flagship systems
 
-<div class="oss-grid animate-in">
-  <div class="oss-card featured">
-    <div class="oss-card-header">
-      <a href="https://github.com/dhananjay8/compliance-evaluator" target="_blank" rel="noopener">Compliance Evaluator</a>
-    </div>
-    <p>Local-first policy evaluation platform with hybrid kNN/BM25 retrieval, LangGraph orchestration, deterministic citation enforcement, prompt-injection defenses, and traceable compliance verdicts. Designed so model output never overrides system guarantees.</p>
-    <div class="tech-tags"><span class="tech-tag purple">Python</span><span class="tech-tag accent">LangGraph</span><span class="tech-tag blue">Elasticsearch</span><span class="tech-tag">Ollama</span><span class="tech-tag">FastAPI</span></div>
-  </div>
-  <div class="oss-card featured">
-    <div class="oss-card-header">
-      <a href="https://github.com/dhananjay8/langgraph-policy-qa-poc" target="_blank" rel="noopener">Grounded Policy Q&amp;A on LangGraph &amp; Azure</a>
-    </div>
-    <p>Production-deployed RAG service with deterministic verbatim-citation validation, managed identity, distributed traces, and live DeepEval quality gates. Separates probabilistic generation from deterministic correctness checks.</p>
-    <div class="tech-tags"><span class="tech-tag purple">Python</span><span class="tech-tag accent">LangGraph</span><span class="tech-tag blue">Azure</span><span class="tech-tag">OpenTelemetry</span><span class="tech-tag">DeepEval</span></div>
-  </div>
-  <div class="oss-card featured">
+<div class="oss-grid flagship-grid animate-in">
+  <article class="oss-card featured system-card">
+    <div class="system-card-top"><span class="system-type">The platform</span><span>Multi-tenant SaaS</span></div>
     <div class="oss-card-header">
       <a href="https://github.com/dhananjay8/compliance-automation-prototype" target="_blank" rel="noopener">Continuous Compliance Automation</a>
     </div>
-    <p>Multi-tenant compliance platform spanning framework normalization, resource ingestion, rule evaluation, evidence, audit workflows, and grounded compliance Q&amp;A. Includes validated seed data and containerized integration flows.</p>
-    <div class="tech-tags"><span class="tech-tag purple">Python</span><span class="tech-tag accent">FastAPI</span><span class="tech-tag blue">PostgreSQL</span><span class="tech-tag">RAG</span><span class="tech-tag">Podman</span></div>
-  </div>
+    <p>A Vanta-like operating system for compliance teams: integrations continuously sync cloud resources, deterministic rules test controls, evidence is collected and expires, drift is detected, and framework readiness rolls up for audits.</p>
+    <dl class="system-facts">
+      <div><dt>Persona</dt><dd>Compliance managers</dd></div><div><dt>Output</dt><dd>Posture, evidence, audit trails</dd></div><div><dt>Intelligence</dt><dd>Rules first; optional RAG</dd></div>
+    </dl>
+    <div class="tech-tags"><span class="tech-tag purple">FastAPI</span><span class="tech-tag blue">PostgreSQL</span><span class="tech-tag">Redis/RQ</span><span class="tech-tag">APScheduler</span><span class="tech-tag">OIDC/SCIM</span></div>
+  </article>
+
+  <article class="oss-card featured system-card">
+    <div class="system-card-top"><span class="system-type">The auditor</span><span>Batch evaluation</span></div>
+    <div class="oss-card-header">
+      <a href="https://github.com/dhananjay8/compliance-evaluator" target="_blank" rel="noopener">Compliance Evaluator</a>
+    </div>
+    <p>Deep policy-document audit engine that evaluates PDFs rule by rule with hybrid retrieval and constrained LLM judgments. A verdict is compliant only when explicit evidence survives deterministic, verbatim citation validation.</p>
+    <dl class="system-facts">
+      <div><dt>Persona</dt><dd>Auditors</dd></div><div><dt>Output</dt><dd>Binary verdicts and gaps</dd></div><div><dt>Guarantee</dt><dd>LLM proposes; code disposes</dd></div>
+    </dl>
+    <div class="tech-tags"><span class="tech-tag accent">LangGraph</span><span class="tech-tag blue">Elasticsearch</span><span class="tech-tag">kNN + BM25</span><span class="tech-tag">Ollama</span><span class="tech-tag">PyMuPDF</span></div>
+  </article>
+
+  <article class="oss-card featured system-card">
+    <div class="system-card-top"><span class="system-type">The interface</span><span>Conversational RAG</span></div>
+    <div class="oss-card-header">
+      <a href="https://github.com/dhananjay8/langgraph-policy-qa-poc" target="_blank" rel="noopener">Grounded Policy Q&amp;A on Azure</a>
+    </div>
+    <p>Azure-native policy assistant with thread memory, hybrid retrieval, reranking, self-correction, SSE progress, and citation grounding. Deterministic contracts and DeepEval metrics make answer quality observable rather than anecdotal.</p>
+    <dl class="system-facts">
+      <div><dt>Persona</dt><dd>Employees</dd></div><div><dt>Output</dt><dd>Cited answers</dd></div><div><dt>Runtime</dt><dd>Interactive, multi-turn</dd></div>
+    </dl>
+    <div class="tech-tags"><span class="tech-tag accent">LangGraph</span><span class="tech-tag blue">Azure OpenAI</span><span class="tech-tag">FAISS</span><span class="tech-tag">SSE</span><span class="tech-tag">OpenTelemetry</span></div>
+  </article>
+
+  <article class="oss-card featured system-card">
+    <div class="system-card-top"><span class="system-type">The sentinel</span><span>Streaming security</span></div>
+    <div class="oss-card-header">
+      <a href="https://github.com/dhananjay8/runtime-anomaly-platform" target="_blank" rel="noopener">Runtime Anomaly Platform</a>
+    </div>
+    <p>Always-on container security pipeline that turns kernel-level eBPF telemetry into 18-dimensional behavioral windows, scores them with Isolation Forest, and exposes explainable anomalies with sub-second kernel-to-alert latency.</p>
+    <dl class="system-facts">
+      <div><dt>Signal</dt><dd>Syscalls, network, processes</dd></div><div><dt>Output</dt><dd>Severity and contributors</dd></div><div><dt>Model</dt><dd>Unsupervised ML, no LLM</dd></div>
+    </dl>
+    <div class="tech-tags"><span class="tech-tag accent">Kafka</span><span class="tech-tag">eBPF/BCC</span><span class="tech-tag purple">Spring Boot</span><span class="tech-tag">Isolation Forest</span><span class="tech-tag">Oracle</span></div>
+  </article>
+</div>
+
+## Architecture comparison
+
+<div class="comparison-wrap animate-in">
+<table class="project-comparison">
+  <thead><tr><th>System</th><th>Primary model</th><th>Data plane</th><th>State</th><th>Latency</th></tr></thead>
+  <tbody>
+    <tr><th>Compliance Automation</th><td>Continuous platform</td><td>Integrations → rules → evidence</td><td>PostgreSQL</td><td>Human-interactive</td></tr>
+    <tr><th>Compliance Evaluator</th><td>Batch graph</td><td>Documents → retrieval → verdicts</td><td>Elasticsearch</td><td>Minutes</td></tr>
+    <tr><th>Policy Q&amp;A</th><td>Request/response graph</td><td>Question → retrieval → cited answer</td><td>FAISS + memory</td><td>Seconds</td></tr>
+    <tr><th>Runtime Anomaly Platform</th><td>Event streaming</td><td>Kernel → windows → anomaly score</td><td>Kafka + Oracle</td><td>Sub-second</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="architecture-note animate-in">
+  <strong>One compliance domain, three responsibilities.</strong>
+  <p>The automation platform runs the compliance program, the evaluator audits policy artifacts, and the Q&amp;A service makes policy knowledge accessible. They reuse grounding and retrieval patterns without collapsing distinct personas, data models, or correctness boundaries into one oversized system.</p>
 </div>
 
 ## Selected systems
@@ -47,13 +99,6 @@ permalink: /projects/
     </div>
     <p>Six interchangeable algorithms, distributed storage, adaptive limits, weighted quotas, circuit-breaker resilience, Prometheus metrics, runtime configuration, and Azure infrastructure—backed by 202 tests.</p>
     <div class="tech-tags"><span class="tech-tag purple">Python</span><span class="tech-tag">Redis</span><span class="tech-tag">Flask</span><span class="tech-tag blue">Azure Bicep</span></div>
-  </div>
-  <div class="oss-card">
-    <div class="oss-card-header">
-      <a href="https://github.com/dhananjay8/runtime-anomaly-platform" target="_blank" rel="noopener">Runtime Anomaly Platform</a>
-    </div>
-    <p>Distributed runtime-security pipeline combining eBPF fingerprints, Kafka ingestion, Isolation Forest scoring, persistence, and Spring Boot APIs for container workload anomaly detection.</p>
-    <div class="tech-tags"><span class="tech-tag accent">Kafka</span><span class="tech-tag">eBPF</span><span class="tech-tag purple">Spring Boot</span><span class="tech-tag">scikit-learn</span></div>
   </div>
   <div class="oss-card">
     <div class="oss-card-header">

@@ -204,49 +204,47 @@ description: Staff-level backend and cloud engineer designing distributed system
 
 <div class="case-grid animate-in">
   <article class="case-card">
-    <span class="card-tag">Applied AI · Azure</span>
-    <h3>Grounded policy Q&amp;A platform</h3>
-    <p>Production-deployed LangGraph service on Azure Container Apps with deterministic citation validation, Azure OpenAI, OpenTelemetry traces, managed identity, and live DeepEval quality gates.</p>
+    <span class="card-tag">Interface · Applied AI · Azure</span>
+    <h3><a href="https://github.com/dhananjay8/langgraph-policy-qa-poc" target="_blank" rel="noopener">Grounded policy Q&amp;A</a></h3>
+    <p>Multi-turn policy assistant with hybrid retrieval, reranking, SSE progress, self-correction, verbatim citation validation, and live DeepEval quality signals on Azure Container Apps.</p>
     <div class="tech-tags">
       <span class="tech-tag purple">Python</span>
       <span class="tech-tag accent">LangGraph</span>
       <span class="tech-tag blue">Azure</span>
-      <span class="tech-tag">OpenTelemetry</span>
+      <span class="tech-tag">FAISS</span>
     </div>
   </article>
   <article class="case-card">
-    <span class="card-tag">Compliance Automation</span>
-    <h3>Continuous compliance automation prototype</h3>
-    <p>Vanta-like continuous compliance automation. FastAPI backend with Pydantic v2, PostgreSQL schema, rule engine, worker, evidence store, RAG pipeline for compliance Q&amp;A, and seed data for SOC 2, ISO 27001, GDPR, HIPAA, PCI DSS, CIS, and NIST.</p>
+    <span class="card-tag">Platform · Compliance Operations</span>
+    <h3><a href="https://github.com/dhananjay8/compliance-automation-prototype" target="_blank" rel="noopener">Continuous compliance automation</a></h3>
+    <p>Multi-tenant compliance operating system covering integrations, scheduled resource sync, declarative testing, evidence lifecycle, drift detection, framework readiness, audits, and optional grounded Q&amp;A.</p>
     <div class="tech-tags">
       <span class="tech-tag purple">Python</span>
       <span class="tech-tag accent">FastAPI</span>
       <span class="tech-tag blue">PostgreSQL</span>
-      <span class="tech-tag">Pydantic</span>
-      <span class="tech-tag">RAG</span>
+      <span class="tech-tag">Redis/RQ</span>
     </div>
   </article>
   <article class="case-card">
-    <span class="card-tag">Backend Framework</span>
-    <h3>Custom rate limiter</h3>
-    <p>Production-grade Python rate limiting framework with 6 algorithms, 3 storage backends, adaptive limiting, weighted/coalesced requests, quota sharing, circuit breaker resilience, dry-run diagnostics, Azure Bicep infra, CI/CD, and OpenAPI/Swagger docs. 202 tests, 87% coverage.</p>
+    <span class="card-tag">Engine · Constrained AI</span>
+    <h3><a href="https://github.com/dhananjay8/compliance-evaluator" target="_blank" rel="noopener">Compliance evaluator</a></h3>
+    <p>Local-first policy auditor using hybrid Elasticsearch retrieval and per-rule LangGraph evaluation. Binary verdicts remain code-enforced and require explicit evidence with valid verbatim citations.</p>
     <div class="tech-tags">
-      <span class="tech-tag purple">Python</span>
-      <span class="tech-tag">Flask</span>
-      <span class="tech-tag">Redis</span>
-      <span class="tech-tag">SQLite</span>
-      <span class="tech-tag">Azure Bicep</span>
+      <span class="tech-tag accent">LangGraph</span>
+      <span class="tech-tag blue">Elasticsearch</span>
+      <span class="tech-tag">Ollama</span>
+      <span class="tech-tag">kNN + BM25</span>
     </div>
   </article>
   <article class="case-card">
-    <span class="card-tag">Research</span>
-    <h3>AWS Lambda concurrency research</h3>
-    <p>Survey and simulation-based evaluation of AWS Lambda concurrency challenges. Challenge taxonomy, four mitigation patterns, calibrated discrete-time simulation, and a runnable E2E AWS measurement harness.</p>
+    <span class="card-tag">Sentinel · Runtime Security</span>
+    <h3><a href="https://github.com/dhananjay8/runtime-anomaly-platform" target="_blank" rel="noopener">Runtime anomaly platform</a></h3>
+    <p>Five-service streaming pipeline that converts eBPF kernel telemetry into behavioral windows and explainable Isolation Forest alerts with dead-letter recovery and sub-second detection.</p>
     <div class="tech-tags">
-      <span class="tech-tag purple">Python</span>
-      <span class="tech-tag accent">AWS Lambda</span>
-      <span class="tech-tag">Simulation</span>
-      <span class="tech-tag">Research</span>
+      <span class="tech-tag accent">Kafka</span>
+      <span class="tech-tag purple">Spring Boot</span>
+      <span class="tech-tag">eBPF</span>
+      <span class="tech-tag">Isolation Forest</span>
     </div>
   </article>
 </div>
