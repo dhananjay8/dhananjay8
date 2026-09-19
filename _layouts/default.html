@@ -61,6 +61,7 @@
 
   <!-- Stylesheet -->
   <link rel="stylesheet" href="/assets/css/style.css?v={{ site.github.build_revision | default: site.time | date: '%s' }}">
+  {% if page.url == '/projects/' %}<link rel="stylesheet" href="/assets/css/project-systems.css?v={{ site.github.build_revision | default: site.time | date: '%s' }}">{% endif %}
 
   <style>
     /* Inline critical CSS for faster paint */
