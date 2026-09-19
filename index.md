@@ -132,12 +132,13 @@ description: Staff-level backend and cloud engineer designing distributed system
         <div><span class="story-company">Qualys</span><h3>Multi-cloud workload protection platform</h3></div>
         <span class="story-period">2025 — Present</span>
       </div>
-      <p class="story-lead">Architected the distributed scanning engine behind CWP, CSPM, and DSPM workflows across AWS, Azure, GCP, and OCI.</p>
+      <p class="story-lead">Architected the distributed scanning engine behind CWP, CSPM, and DSPM workflows across AWS, Azure, GCP, and OCI, coordinating 15–16 downstream platform integrations.</p>
       <div class="story-detail-grid">
-        <div><strong>Challenge</strong><p>Coordinate zero-touch snapshot scanning across customer cloud boundaries without compromising isolation, cleanup, or operability.</p></div>
-        <div><strong>Architecture</strong><p>Kafka-driven services, Redis coordination, managed identity, governed Terraform, and explicit multi-phase setup and teardown.</p></div>
+        <div><strong>Challenge</strong><p>A single scan could fan out into thousands of tasks while cloud throttling, customer IAM policies, regional limits, and nondeterministic APIs made failure behavior difficult to reproduce.</p></div>
+        <div><strong>Architecture</strong><p>Designed per-tenant Redis queues, rate-limited release, Kafka dispatch, delayed commands, and ACK-driven continuation so retries and polling could not exceed each workflow's concurrency window.</p></div>
       </div>
-      <div class="story-impact"><span><strong>50K+</strong> events/day</span><span><strong>100+</strong> environments</span><span><strong>60%</strong> faster provisioning</span><span><strong>85%</strong> fewer violations</span></div>
+      <div class="story-technical-note"><strong>Failure engineering</strong><span>Stabilized Kafka direct-memory exhaustion with pointer-based payloads, LZ4 compression, bounded TLS connection rates, and explicit JVM direct-memory limits. Removed Azure's single-SKU failure mode with regional preflight checks, concurrency throttles, and an automatic compatible-SKU fallback chain.</span></div>
+      <div class="story-impact"><span><strong>50K+</strong> events/day</span><span><strong>100+</strong> environments</span><span><strong>60%</strong> faster provisioning</span><span><strong>15–16</strong> integrations</span></div>
       <div class="story-tech">Kafka · Redis · Azure · AWS · GCP · OCI · Java · Node.js · Terraform</div>
     </div>
   </article>
@@ -149,11 +150,12 @@ description: Staff-level backend and cloud engineer designing distributed system
         <div><span class="story-company">Globant</span><h3>Billing platform modernization</h3></div>
         <span class="story-period">2021 — 2025</span>
       </div>
-      <p class="story-lead">Led backend decomposition of a monolithic billing platform while preserving payment correctness and delivery continuity.</p>
+      <p class="story-lead">Led incremental decomposition of a monolithic billing platform while preserving payment correctness, PCI boundaries, and delivery continuity.</p>
       <div class="story-detail-grid">
-        <div><strong>Challenge</strong><p>Modernize tightly coupled billing workflows under PCI constraints without a risky all-at-once rewrite.</p></div>
-        <div><strong>Architecture</strong><p>Incremental service boundaries, idempotent payment flows, webhook reconciliation, scoped authorization, and contract-focused testing.</p></div>
+        <div><strong>Challenge</strong><p>Separate tightly coupled billing workflows without a high-risk rewrite, duplicate financial side effects, or broken reconciliation across service boundaries.</p></div>
+        <div><strong>Architecture</strong><p>Introduced explicit service ownership, idempotency keys, webhook reconciliation, scoped authorization, contract tests, and observable migration checkpoints.</p></div>
       </div>
+      <div class="story-technical-note"><strong>Performance work</strong><span>Used query-plan and buffer analysis to replace sequential scans with composite and partial indexes, batched N+1 lookups into joins, and cached stable reference data while protecting write-heavy paths.</span></div>
       <div class="story-impact"><span><strong>40%</strong> better throughput</span><span><strong>18%</strong> lower query latency</span><span><strong>50%</strong> less manual effort</span><span><strong>85%+</strong> test coverage</span></div>
       <div class="story-tech">Node.js · TypeScript · PostgreSQL · Redis · Stripe · Jest</div>
     </div>
@@ -168,9 +170,10 @@ description: Staff-level backend and cloud engineer designing distributed system
       </div>
       <p class="story-lead">Reworked critical warehouse and inventory paths to make operational systems fast, event-driven, and resilient to partner failures.</p>
       <div class="story-detail-grid">
-        <div><strong>Challenge</strong><p>Slow APIs and manual coordination were constraining warehouse, delivery, and customer-facing workflows.</p></div>
-        <div><strong>Architecture</strong><p>Query-plan optimization, GCP Pub/Sub state synchronization, idempotent partner adapters, retries, and SLA-aware escalation.</p></div>
+        <div><strong>Challenge</strong><p>Slow APIs, N+1 access patterns, and synchronous partner dependencies were creating warehouse backlogs and delaying inventory visibility.</p></div>
+        <div><strong>Architecture</strong><p>Combined query-plan optimization with Pub/Sub state propagation, idempotent partner adapters, bounded retries, and SLA-aware escalation.</p></div>
       </div>
+      <div class="story-technical-note"><strong>Operational resilience</strong><span>Separated core inventory state transitions from unreliable 3PL calls so partner latency degraded asynchronously instead of blocking customer and warehouse workflows.</span></div>
       <div class="story-impact"><span><strong>9–13s → &lt;2s</strong> API latency</span><span><strong>30%</strong> less manual effort</span><span><strong>Real-time</strong> inventory sync</span></div>
       <div class="story-tech">GCP Pub/Sub · Node.js · MongoDB · Redis · Mocha</div>
     </div>
@@ -185,9 +188,10 @@ description: Staff-level backend and cloud engineer designing distributed system
       </div>
       <p class="story-lead">Built transaction, realtime, and developer infrastructure for Ethereum-based branded token economies.</p>
       <div class="story-detail-grid">
-        <div><strong>Challenge</strong><p>Expose blockchain operations through familiar APIs while managing asynchronous confirmation, retries, and consistency.</p></div>
-        <div><strong>Architecture</strong><p>Web3 APIs, RabbitMQ workers with dead-letter handling, sharded processing, realtime notifications, and reusable open-source tooling.</p></div>
+        <div><strong>Challenge</strong><p>Expose eventually consistent blockchain operations through predictable APIs while handling confirmation delays, duplicate delivery, retries, and partial failure.</p></div>
+        <div><strong>Architecture</strong><p>Built Web3 APIs, RabbitMQ worker pipelines with dead-letter handling, sharded processing, Redis-backed realtime updates, and reusable infrastructure libraries.</p></div>
       </div>
+      <div class="story-technical-note"><strong>Consistency model</strong><span>Kept request acceptance separate from chain confirmation and modeled transaction progress explicitly, allowing workers to retry safely while clients received realtime state changes.</span></div>
       <div class="story-impact"><span><strong>3</strong> open-source systems</span><span><strong>Async</strong> transaction guarantees</span><span><strong>Realtime</strong> client updates</span></div>
       <div class="story-tech">Web3.js · RabbitMQ · Node.js · MySQL · DynamoDB · Redis</div>
     </div>
@@ -261,6 +265,8 @@ description: Staff-level backend and cloud engineer designing distributed system
 
 ## Skills
 
+<p class="skills-intro">Depth in distributed backends and cloud platforms, supported by the tools needed to build, secure, observe, and operate them in production.</p>
+
 <div class="skill-groups animate-in">
   <div class="skill-group"><strong>Languages</strong><span>JavaScript, TypeScript, Java, Python, Bash</span></div>
   <div class="skill-group"><strong>Backend Frameworks</strong><span>Node.js, Express.js, NestJS, Spring Boot, Flask, Django, FastAPI, GraphQL</span></div>
@@ -306,19 +312,19 @@ description: Staff-level backend and cloud engineer designing distributed system
 
 <div class="contact-grid animate-in">
   <a class="contact-link" href="mailto:dspatil.backend@gmail.com">
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 7L2 7"/></svg>
-    dspatil.backend@gmail.com
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 7L2 7"/></svg>
+    <span>dspatil.backend@gmail.com</span>
   </a>
   <a class="contact-link" href="https://linkedin.com/in/dhananjay08patil" target="_blank" rel="noopener">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-    linkedin.com/in/dhananjay08patil
+    <span>linkedin.com/in/dhananjay08patil</span>
   </a>
   <a class="contact-link" href="https://github.com/dhananjay8" target="_blank" rel="noopener">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
-    github.com/dhananjay8
+    <span>github.com/dhananjay8</span>
   </a>
   <a class="contact-link" href="https://twitter.com/dsp__8" target="_blank" rel="noopener">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-    @dsp__8
+    <span>@dsp__8</span>
   </a>
 </div>

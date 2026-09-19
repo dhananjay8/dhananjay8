@@ -112,7 +112,9 @@ permalink: /resume/
 
 ## Skills
 
-<div class="skill-groups">
+<p class="skills-intro">A platform-focused toolkit built around distributed systems, cloud security, data infrastructure, and production operations.</p>
+
+<div class="skill-groups resume-skills">
   <div class="skill-group"><strong>Languages</strong><span>JavaScript, TypeScript, Java, Python, Bash</span></div>
   <div class="skill-group"><strong>Backend</strong><span>Node.js, Express.js, NestJS, Spring Boot, Flask, Django, FastAPI, GraphQL</span></div>
   <div class="skill-group"><strong>Databases</strong><span>MySQL, PostgreSQL, MongoDB, Cassandra, DynamoDB, CosmosDB, Elasticsearch, Redis, Oracle</span></div>
@@ -124,7 +126,7 @@ permalink: /resume/
 ## Contact
 
 <div class="contact-grid">
-  <a class="contact-link" href="mailto:dspatil.backend@gmail.com">dspatil.backend@gmail.com</a>
-  <a class="contact-link" href="https://linkedin.com/in/dhananjay08patil" target="_blank" rel="noopener">linkedin.com/in/dhananjay08patil</a>
-  <a class="contact-link" href="https://github.com/dhananjay8" target="_blank" rel="noopener">github.com/dhananjay8</a>
+  <a class="contact-link" href="mailto:dspatil.backend@gmail.com"><span>dspatil.backend@gmail.com</span></a>
+  <a class="contact-link" href="https://linkedin.com/in/dhananjay08patil" target="_blank" rel="noopener"><span>linkedin.com/in/dhananjay08patil</span></a>
+  <a class="contact-link" href="https://github.com/dhananjay8" target="_blank" rel="noopener"><span>github.com/dhananjay8</span></a>
 </div>
