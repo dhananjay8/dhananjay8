@@ -1,3 +1,5 @@
+---
+---
 /* ============================================================
    DHANANJAY PATIL — Portfolio Stylesheet
    Modern dark theme, glassmorphism, smooth animations
@@ -1992,4 +1994,11 @@ h3:hover .anchor-link,
   .story-detail-grid { grid-template-columns: 1fr; gap: 1rem; }
   .resume-skills { grid-template-columns: 1fr; }
   .story-technical-note { grid-template-columns: 1fr; gap: 0.4rem; }
+}
+
+/* Mobile Engineering Story rules */
+@media (max-width: 480px) {
+  .story-detail-grid { grid-template-columns: 1fr; gap: 0.75rem; }
+  .story-lead { font-size: 0.95rem; }
+  .story-impact { gap: 0.45rem; }
 }
