@@ -10,17 +10,6 @@ permalink: /projects/
   <span class="section-tag">architecture · systems · AI</span>
 </div>
 
-<p style="color: var(--text-sub); margin-bottom: 2rem;">A focused portfolio of systems spanning multi-tenant SaaS, constrained AI evaluation, conversational retrieval, and real-time streaming security.</p>
-
-<div class="project-spectrum animate-in" aria-label="System architecture spectrum">
-  <div><span>Platform</span><strong>Operate compliance</strong><small>Continuous lifecycle</small></div>
-  <div><span>Engine</span><strong>Audit policies</strong><small>Rule-by-rule evaluation</small></div>
-  <div><span>Interface</span><strong>Answer questions</strong><small>Conversational access</small></div>
-  <div><span>Sentinel</span><strong>Detect anomalies</strong><small>Always-on runtime defense</small></div>
-</div>
-
-## Flagship systems
-
 <div class="oss-grid flagship-grid animate-in">
   <article class="oss-card featured system-card">
     <div class="system-card-top"><span class="system-type">The platform</span><span>Multi-tenant SaaS</span></div>
@@ -69,11 +58,7 @@ permalink: /projects/
     </dl>
     <div class="tech-tags"><span class="tech-tag accent">Kafka</span><span class="tech-tag">eBPF/BCC</span><span class="tech-tag purple">Spring Boot</span><span class="tech-tag">Isolation Forest</span><span class="tech-tag">Oracle</span></div>
   </article>
-</div>
 
-## Selected systems
-
-<div class="oss-grid animate-in">
   <div class="oss-card">
     <div class="oss-card-header">
       <a href="https://github.com/dhananjay8/custom-rate-limiter" target="_blank" rel="noopener">Custom Rate Limiter</a>
@@ -81,6 +66,7 @@ permalink: /projects/
     <p>Six interchangeable algorithms, distributed storage, adaptive limits, weighted quotas, circuit-breaker resilience, Prometheus metrics, runtime configuration, and Azure infrastructure—backed by 202 tests.</p>
     <div class="tech-tags"><span class="tech-tag purple">Python</span><span class="tech-tag">Redis</span><span class="tech-tag">Flask</span><span class="tech-tag blue">Azure Bicep</span></div>
   </div>
+
   <div class="oss-card">
     <div class="oss-card-header">
       <a href="/papers/aws-lambda-concurrency/">Comparative research of various Concurrency Techniques for Serverless Cloud Services</a>
