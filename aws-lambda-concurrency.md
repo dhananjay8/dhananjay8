@@ -2,21 +2,30 @@
 layout: default
 title: Concurrency Challenges in AWS Lambda
 subtitle: A Survey and Simulation-Based Evaluation
-description: A reproducible comparison of AWS Lambda reserved concurrency, provisioned concurrency, burst limiting, and queue-based load leveling.
+description: A reproducible comparison of AWS Lambda reserved concurrency, provisioned concurrency, burst-rate limiting, and queue-based load leveling.
 permalink: /papers/aws-lambda-concurrency/
 ---
 
-<article class="research-article">
-<div class="section-header">
-  <h2>Concurrency Challenges in AWS Lambda</h2>
-  <span class="section-tag">research article</span>
+<article class="research-article" markdown="1">
+<div class="article-hero">
+  <div class="article-kicker">AWS Lambda · Serverless Architecture · Research</div>
+  <h1>Concurrency Challenges in AWS Lambda</h1>
+  <p class="article-deck">A survey and simulation-based evaluation of reserved concurrency, provisioned concurrency, burst-rate limiting, and queue-based load leveling.</p>
+  <div class="article-meta"><span>Dhananjay Patil</span><span>2026</span><span>12 min read</span></div>
 </div>
 
-<p class="article-deck">A survey and simulation-based evaluation of reserved concurrency, provisioned concurrency, burst-rate limiting, and queue-based load leveling.</p>
+<nav class="article-toc" aria-label="Article contents">
+  <strong>In this article</strong>
+  <a href="#abstract">Abstract</a>
+  <a href="#key-contributions">Contributions</a>
+  <a href="#methodology">Methodology</a>
+  <a href="#results-at-a-glance">Results</a>
+  <a href="#practical-guidance">Guidance</a>
+</nav>
 
-<div class="article-meta"><span>Dhananjay Patil</span><span>2026</span><span>12 min read</span></div>
-
-> **Note to practitioners:** Use provisioned concurrency for synchronous, latency-sensitive traffic. Use queue-based buffering for asynchronous, delay-tolerant workloads. Treat reserved concurrency as an isolation control and size it for peak demand plus headroom.
+<div class="practitioner-note" markdown="1">
+**For practitioners:** Use provisioned concurrency for synchronous, latency-sensitive traffic. Use queue-based buffering for asynchronous, delay-tolerant workloads. Treat reserved concurrency as an isolation control and size it for peak demand plus headroom.
+</div>
 
 ## Abstract
 
@@ -42,6 +51,13 @@ The evaluation uses two complementary paths:
 All scenarios share the same step-burst arrival process so only the concurrency-control configuration differs.
 
 ## Results at a glance
+
+<div class="result-grid">
+  <div class="result-card"><strong>97.2%</strong><span>Provisioned success rate</span></div>
+  <div class="result-card"><strong>100%</strong><span>Queue-buffered success rate</span></div>
+  <div class="result-card"><strong>2.8%</strong><span>Provisioned throttle rate</span></div>
+  <div class="result-card"><strong>23.0s</strong><span>Queue-buffered p95 latency</span></div>
+</div>
 
 ### Outcome rates
 
