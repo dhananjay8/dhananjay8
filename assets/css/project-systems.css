@@ -111,10 +111,12 @@
   line-height: 1.7;
 }
 .story-page .story-technical-note {
+  margin-bottom: 0.85rem;
   padding: 1rem;
   border-left: 3px solid var(--accent-border);
   border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
 }
+.story-page .story-technical-note:last-child { margin-bottom: 0; }
 .story-page .story-technical-note code {
   padding: 0.1rem 0.3rem;
   border-radius: 4px;
