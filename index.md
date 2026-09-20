@@ -198,6 +198,8 @@ description: Staff-level backend and cloud engineer designing distributed system
   </article>
 </div>
 
+<p class="section-cta animate-in"><a class="button" href="/stories/">Read the full engineering stories</a></p>
+
 ## Featured projects
 
 <p style="color: var(--text-sub); margin-bottom: 2rem;">Selected architecture work spanning cloud security, platform engineering, reliability, and applied AI.</p>

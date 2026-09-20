@@ -61,7 +61,7 @@
 
   <!-- Stylesheet -->
   <link rel="stylesheet" href="/assets/css/style.css?v={{ site.github.build_revision | default: site.time | date: '%s' }}">
-  {% if page.url == '/projects/' %}<link rel="stylesheet" href="/assets/css/project-systems.css?v={{ site.github.build_revision | default: site.time | date: '%s' }}">{% endif %}
+  {% if page.url == '/projects/' or page.url == '/stories/' %}<link rel="stylesheet" href="/assets/css/project-systems.css?v={{ site.github.build_revision | default: site.time | date: '%s' }}">{% endif %}
 
   <style>
     /* Inline critical CSS for faster paint */
@@ -81,6 +81,7 @@
         </a>
         <nav class="site-nav" aria-label="Main navigation">
           <a href="/" {% if page.url == '/' %}class="active" aria-current="page"{% endif %}>Home</a>
+          <a href="/stories/" {% if page.url == '/stories/' %}class="active" aria-current="page"{% endif %}>Stories</a>
           <a href="/projects/" {% if page.url == '/projects/' %}class="active" aria-current="page"{% endif %}>Projects</a>
           <a href="/stack/" {% if page.url == '/stack/' %}class="active" aria-current="page"{% endif %}>The Stack</a>
           <a href="/list-100/" {% if page.url == '/list-100/' %}class="active" aria-current="page"{% endif %}>List 100</a>
